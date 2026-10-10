@@ -11,12 +11,13 @@ Want help putting this to work in your company? [Work with Eric.](#work-with-eri
 | [**Cortex**](https://github.com/chaostoclarity/Cortex) | The context layer your AI reads first. A Map, catalogs, and records for your people, initiatives, decisions, and strategy, in Notion, Obsidian, or Google Drive. Lives in its own repo, listed here so one marketplace installs everything. |
 | [**Founder OS**](plugins/founder-os) | Your weekly operating cycle. Plan Monday, brief each morning, reflect Friday. Runs on your Cortex. |
 | [**Recap**](plugins/recap) | Every meeting becomes done work: a branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, and context saved. Runs twice a day. |
+| [**Content Engine**](plugins/content-engine) | Last week's meetings become this week's content. One original framework, a newsletter issue, and a LinkedIn post in your voice, with every story kept confidential. Runs every Monday. |
 | [**Chaos to Clarity AI Coach**](plugins/c2c-coach) | 30 leadership exercises for founders. Describe the problem in one sentence; Claude picks the tool and coaches you through it. |
 | [**Above the Chaos**](plugins/above-the-chaos) | Nine Stoic leadership exercises from the book *Above the Chaos*. Claude coaches you through each one and gives you a summary to keep. Get the book at [abovethechaosbook.com](https://abovethechaosbook.com). |
 | [**Handwritten Notes**](plugins/handwritten-notes) | Photograph a page of notes. Checkbox items become tasks with time booked on your calendar. Everything else is filed as notes. |
 | [**Voice**](plugins/voice) | Share a few pieces of your writing and get your own voice skill. It drafts and rewrites anything so it sounds like you, and learns from every edit you make. |
 
-Start with Cortex, then add Founder OS and Recap. The AI Coach, Above the Chaos, Handwritten Notes, and Voice work on their own. Recap works on its own too, and gets smarter with a Cortex.
+Start with Cortex, then add Founder OS and Recap. The AI Coach, Above the Chaos, Handwritten Notes, and Voice work on their own. Recap and Content Engine work on their own too, and get smarter with a Cortex. Content Engine sounds most like you when you add Voice.
 
 ## Install: the whole set (recommended)
 
@@ -27,7 +28,7 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 1. Open **Customize**, then **Plugins**.
 2. Click **Add**, then **Add marketplace**, then **Add from a repository**.
 3. Enter `chaostoclarity/C2C-skills`.
-4. Add the plugins you want: Cortex, Founder OS, Recap, Chaos to Clarity AI Coach, Above the Chaos, Handwritten Notes, Voice.
+4. Add the plugins you want: Cortex, Founder OS, Recap, Content Engine, Chaos to Clarity AI Coach, Above the Chaos, Handwritten Notes, Voice.
 
 **In Claude Code**
 
@@ -36,6 +37,7 @@ claude plugin marketplace add chaostoclarity/C2C-skills
 claude plugin install cortex@chaostoclarity
 claude plugin install founder-os@chaostoclarity
 claude plugin install recap@chaostoclarity
+claude plugin install content-engine@chaostoclarity
 claude plugin install c2c-coach@chaostoclarity
 claude plugin install above-the-chaos@chaostoclarity
 claude plugin install handwritten-notes@chaostoclarity
@@ -59,6 +61,8 @@ Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/
 | weekly-retro | Founder OS | Friday | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/weekly-retro.zip) |
 | recap-setup | Recap | Once, to connect tools, set your branding, and schedule it | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/recap-setup.zip) |
 | meeting-recap | Recap | Twice a day on a schedule, or "recap my last meeting" | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/meeting-recap.zip) |
+| content-engine-setup | Content Engine | Once, to connect your notes, learn your voice, and schedule it | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/content-engine-setup.zip) |
+| weekly-content-engine | Content Engine | Every Monday on a schedule, or "run my content engine" | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/weekly-content-engine.zip) |
 | c2c-coach | Chaos to Clarity AI Coach | Whenever you're stuck on a leadership problem | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-coach.zip) |
 | above-the-chaos | Above the Chaos | When you want to work on how you lead, not just what you do | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/above-the-chaos.zip) |
 | handwritten-notes | Handwritten Notes | Whenever you photograph your notes | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/handwritten-notes.zip) |
@@ -111,7 +115,7 @@ For other uses, such as rolling them out to clients or teaching them, contact Er
 4. Add a row to the download table above.
 5. Commit and push to `main`. The release workflow checks everything, builds the ZIPs, and publishes a release. Links update automatically.
 
-**Shared files.** Founder OS and Recap skills carry shared references: `cortex-spec.md`, fetched from the [Cortex repo](https://github.com/chaostoclarity/Cortex/blob/main/spec/cortex-spec.md), plus `founder-os.md` and `recap-config.md`, mastered in `shared/`. Run `python scripts/sync_shared.py` to fetch and copy them. The release workflow also runs it daily and commits any change, so Founder OS picks up Cortex spec updates on its own.
+**Shared files.** Founder OS, Recap, and Content Engine skills carry shared references: `cortex-spec.md`, fetched from the [Cortex repo](https://github.com/chaostoclarity/Cortex/blob/main/spec/cortex-spec.md), plus `founder-os.md`, `recap-config.md`, and `content-engine-config.md`, mastered in `shared/`. Run `python scripts/sync_shared.py` to fetch and copy them. The release workflow also runs it daily and commits any change, so these plugins pick up Cortex spec updates on their own.
 
 **Cortex** is listed in `marketplace.json` with a `git-subdir` source pointing at `chaostoclarity/Cortex`. Its code lives only there.
 

@@ -1,0 +1,19 @@
+{
+  "name": "content-engine",
+  "displayName": "Content Engine",
+  "description": "Content Engine: every Monday, last week's meetings become one original framework, a newsletter issue, and a LinkedIn post in your voice, with every story kept confidential.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/C2C-skills/tree/main/plugins/content-engine",
+  "repository": "https://github.com/chaostoclarity/C2C-skills",
+  "keywords": [
+    "content",
+    "newsletter",
+    "linkedin",
+    "thought leadership",
+    "voice",
+    "granola"
+  ]
+}

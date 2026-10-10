@@ -5,7 +5,8 @@ alone, so each skill carries its own copies in references/.
 
 - cortex-spec.md comes from the Cortex repository (its spec/ folder). It's
   fetched into shared/ so this repo always has a pinned copy.
-- founder-os.md and recap-config.md are mastered here, in shared/.
+- founder-os.md, recap-config.md, and content-engine-config.md are mastered
+  here, in shared/.
 
 Usage:
     python scripts/sync_shared.py            # fetch the Cortex spec, then copy
@@ -23,9 +24,10 @@ CORTEX_SPEC_URL = "https://raw.githubusercontent.com/chaostoclarity/Cortex/main/
 
 # shared file -> plugins whose every skill gets a copy
 TARGETS = {
-    "cortex-spec.md": ["founder-os", "recap"],
+    "cortex-spec.md": ["founder-os", "recap", "content-engine"],
     "founder-os.md": ["founder-os", "recap"],
     "recap-config.md": ["recap"],
+    "content-engine-config.md": ["content-engine"],
 }
 
 

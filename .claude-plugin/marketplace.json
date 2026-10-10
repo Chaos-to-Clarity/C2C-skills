@@ -27,6 +27,11 @@
       "description": "Recap: every meeting becomes done work. A branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, small tasks done, and context saved to your Cortex."
     },
     {
+      "name": "content-engine",
+      "source": "./plugins/content-engine",
+      "description": "Content Engine: every Monday, last week's meetings become one original framework, a newsletter issue, and a LinkedIn post in your voice, with every story kept confidential."
+    },
+    {
       "name": "c2c-coach",
       "source": "./plugins/c2c-coach",
       "description": "The Chaos to Clarity AI Coach: 30 leadership exercises for founders. Describe a problem in one sentence and get coached through the right tool, from Toleration Audit to Hard Conversation Protocol."
