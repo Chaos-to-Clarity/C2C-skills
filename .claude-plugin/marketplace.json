@@ -40,6 +40,11 @@
       "name": "handwritten-notes",
       "source": "./plugins/handwritten-notes",
       "description": "Photograph a page of notes. Checkbox items become tasks with time booked on your calendar; everything else is filed as notes."
+    },
+    {
+      "name": "voice",
+      "source": "./plugins/voice",
+      "description": "Voice: turn samples of your writing into your own voice skill. It writes and rewrites anything so it sounds like you, avoids the habits that read as AI, and learns from every edit you make."
     }
   ]
 }

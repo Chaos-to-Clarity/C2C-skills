@@ -1,0 +1,18 @@
+{
+  "name": "voice",
+  "displayName": "Voice",
+  "description": "Voice: turn samples of your writing into your own voice skill. It writes and rewrites anything so it sounds like you, avoids the habits that read as AI, and learns from every edit you make.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/Claude-skills/tree/main/plugins/voice",
+  "repository": "https://github.com/chaostoclarity/Claude-skills",
+  "keywords": [
+    "writing",
+    "voice",
+    "linkedin",
+    "content",
+    "style"
+  ]
+}
