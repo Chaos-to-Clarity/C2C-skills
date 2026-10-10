@@ -1,0 +1,17 @@
+{
+  "name": "handwritten-notes",
+  "displayName": "Handwritten Notes",
+  "description": "Photograph a page of notes. Checkbox items become tasks with time booked on your calendar; everything else is filed as notes.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/Claude-skills/tree/main/plugins/handwritten-notes",
+  "repository": "https://github.com/chaostoclarity/Claude-skills",
+  "keywords": [
+    "notes",
+    "tasks",
+    "calendar",
+    "ocr"
+  ]
+}

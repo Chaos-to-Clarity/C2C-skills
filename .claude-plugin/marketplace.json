@@ -1,0 +1,25 @@
+{
+  "name": "chaostoclarity",
+  "description": "Claude skills for founders and operators from Chaos to Clarity.",
+  "owner": {
+    "name": "Eric Weiss",
+    "url": "https://chaostoclarity.io"
+  },
+  "plugins": [
+    {
+      "name": "cortex",
+      "source": "./plugins/cortex",
+      "description": "Cortex: the context layer your AI reads first. People, initiatives, decisions, and strategy in Notion, Obsidian, or Google Drive, kept current from your meetings and email."
+    },
+    {
+      "name": "founder-os",
+      "source": "./plugins/founder-os",
+      "description": "Founder Operating System: plan Monday, brief each morning, reflect Friday. Weekly goals, tasks, reflections, and commitments that run on your Cortex."
+    },
+    {
+      "name": "handwritten-notes",
+      "source": "./plugins/handwritten-notes",
+      "description": "Photograph a page of notes. Checkbox items become tasks with time booked on your calendar; everything else is filed as notes."
+    }
+  ]
+}

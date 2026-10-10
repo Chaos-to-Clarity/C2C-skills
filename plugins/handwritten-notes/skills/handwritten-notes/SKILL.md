@@ -30,7 +30,7 @@ Keep it short. Use AskUserQuestion for choices (up to 4 per call, recommended op
 
 ### B. Find or build the place to store things
 
-1. **Look for an existing system.** Search the store for pages and databases with names like Brain, Second Brain, Overview, Tasks, To-do, Notes, People, Projects, Initiatives, Clients. A strong match is a parent page holding a Tasks database plus People or Projects databases.
+1. **Look for an existing system.** Search the store for pages and databases with names like Cortex, Brain, Second Brain, Overview, Tasks, To-do, Notes, People, Projects, Initiatives, Clients. A strong match is a parent page holding a Tasks database plus People or Projects databases.
 2. **If you find one, confirm it.** Ask: "I found [page name] with [Tasks, People, Projects]. Use it?" Options: use it (recommended), pick a different page, create a new setup.
 3. **If you find nothing, ask where to store things.** Options:
    - Create a new page "Notes and Tasks" with Tasks and Notes databases (recommended)

@@ -9,7 +9,9 @@ on:
   push:
     branches: [main]
     paths:
-      - "skills/**"
+      - "plugins/**"
+      - "shared/**"
+      - ".claude-plugin/**"
   workflow_dispatch:
 
 permissions:
@@ -20,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - uses: actions/setup-python@v5
         with:
@@ -34,7 +38,7 @@ jobs:
         run: |
           TAG="v$(date -u +%Y.%m.%d)-$(git rev-parse --short HEAD)"
           NOTES="Skills updated in this release:
-          $(git diff --name-only HEAD~1 HEAD -- skills/ 2>/dev/null | cut -d/ -f2 | sort -u | sed 's/^/- /')
+          $(git diff --name-only HEAD~1 HEAD -- plugins/ 2>/dev/null | cut -d/ -f2 | sort -u | grep -v "^$" | sed 's/^/- /')
 
           Install: download a ZIP below, then in Claude open Customize, Skills, Create skill, Upload a skill."
           gh release create "$TAG" dist/*.zip \

@@ -1,0 +1,21 @@
+{
+  "name": "founder-os",
+  "displayName": "Founder OS",
+  "description": "Founder Operating System: plan Monday, brief each morning, reflect Friday. Weekly goals, tasks, reflections, and commitments that run on your Cortex.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/Claude-skills/tree/main/plugins/founder-os",
+  "repository": "https://github.com/chaostoclarity/Claude-skills",
+  "keywords": [
+    "productivity",
+    "weekly-planning",
+    "daily-briefing",
+    "retro",
+    "founders"
+  ],
+  "dependencies": [
+    "cortex"
+  ]
+}
