@@ -1,0 +1,18 @@
+{
+  "name": "above-the-chaos",
+  "displayName": "Above the Chaos",
+  "description": "Above the Chaos: nine Stoic leadership exercises for founders, from the book by Eric Weiss. Control, obstacles, emotion, virtue, culture, and your own leadership philosophy.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://abovethechaosbook.com",
+  "repository": "https://github.com/chaostoclarity/Claude-skills",
+  "keywords": [
+    "stoicism",
+    "leadership",
+    "founders",
+    "reflection",
+    "resilience"
+  ]
+}

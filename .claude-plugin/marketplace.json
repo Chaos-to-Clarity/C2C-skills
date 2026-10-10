@@ -32,6 +32,11 @@
       "description": "The Chaos to Clarity Toolkit: 30 leadership exercises for founders. Describe a problem in one sentence and get coached through the right tool, from Toleration Audit to Hard Conversation Protocol."
     },
     {
+      "name": "above-the-chaos",
+      "source": "./plugins/above-the-chaos",
+      "description": "Above the Chaos: nine Stoic leadership exercises for founders, from the book by Eric Weiss. Control, obstacles, emotion, virtue, culture, and your own leadership philosophy."
+    },
+    {
       "name": "handwritten-notes",
       "source": "./plugins/handwritten-notes",
       "description": "Photograph a page of notes. Checkbox items become tasks with time booked on your calendar; everything else is filed as notes."
