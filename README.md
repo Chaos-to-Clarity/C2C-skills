@@ -58,6 +58,17 @@ Plugins added from the marketplace in the Claude app pick up new versions on the
 
 Reach Eric at [chaostoclarity.io](https://chaostoclarity.io).
 
+## License
+
+Free to use and adapt inside your own business. Not for resale, redistribution, or sharing.
+
+These skills are licensed under the [PolyForm Internal Use License 1.0.0](LICENSE.md). In plain terms:
+
+- **You can** install them, run them for your own company's internal operations, and change them to fit how you work.
+- **You can't** share or distribute them, sublicense them, sell them, or package them into a product or service for others.
+
+For other uses, such as rolling them out to clients or teaching them, contact Eric at [chaostoclarity.io](https://chaostoclarity.io).
+
 ## For maintainers
 
 **Layout.** `.claude-plugin/marketplace.json` lists the plugins. Each plugin lives in `plugins/<plugin>/` with `.claude-plugin/plugin.json` and one folder per skill in `skills/`.

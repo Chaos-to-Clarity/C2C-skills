@@ -12,6 +12,7 @@ on:
       - "plugins/**"
       - "shared/**"
       - ".claude-plugin/**"
+      - "LICENSE.md"
   schedule:
     - cron: "17 13 * * *"   # daily: pick up Cortex spec changes
   workflow_dispatch:
