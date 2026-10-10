@@ -117,7 +117,7 @@ Work through each item from Step 6. Before creating anything, check it doesn't a
 
 Save what stays true for weeks or months (`memory` setting):
 
-- **Cortex:** follow the Writing protocol in `cortex-spec.md` section 7: People (new contacts, changed roles, the open thread with this person), Initiatives (new, shifted, blocked), Decisions (made or opened). Resolve names through the Glossary and catalogs; unclear matches go to the Inbox. Update catalog rows, and add an Ingest Log row: Source "[meeting title] [date]", Type Meeting Notes, What Changed = what the run did (recap sent or drafted, tasks, events, drafts, records changed), plus the note link.
+- **Cortex:** follow the Writing protocol in `cortex-spec.md` section 7: People and Companies (new contacts start as Stubs and earn full records as they recur; changed roles; the open thread with each), Initiatives (new, shifted, blocked), Decisions (made or opened). Resolve names through the Glossary and catalogs; unclear matches go to the Inbox. Update catalog rows, and add an Ingest Log row: Source "[meeting title] [date]", Type Meeting Notes, What Changed = what the run did (recap sent or drafted, tasks, events, drafts, records changed), plus the note link.
 - **A Notion page or Drive folder:** save the recap and the extracted context as a dated entry.
 - **none:** skip; the recap email is the record.
 
