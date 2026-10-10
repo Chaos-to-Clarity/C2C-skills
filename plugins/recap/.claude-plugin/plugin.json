@@ -6,8 +6,8 @@
     "name": "Eric Weiss, Chaos to Clarity",
     "url": "https://chaostoclarity.io"
   },
-  "homepage": "https://github.com/chaostoclarity/Claude-skills/tree/main/plugins/recap",
-  "repository": "https://github.com/chaostoclarity/Claude-skills",
+  "homepage": "https://github.com/chaostoclarity/C2C-skills/tree/main/plugins/recap",
+  "repository": "https://github.com/chaostoclarity/C2C-skills",
   "keywords": [
     "meetings",
     "recap",

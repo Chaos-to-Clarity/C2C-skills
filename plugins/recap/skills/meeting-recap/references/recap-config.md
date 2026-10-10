@@ -2,7 +2,7 @@
 
 Settings, email template, and scheduling rules shared by recap-setup and meeting-recap.
 
-The master copy lives in `shared/recap-config.md` in the Claude-skills repository. Edit it there, then run `python scripts/sync_shared.py`.
+The master copy lives in `shared/recap-config.md` in the C2C-skills repository. Edit it there, then run `python scripts/sync_shared.py`.
 
 ## 1. Config format
 

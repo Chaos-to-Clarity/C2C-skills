@@ -26,13 +26,13 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 
 1. Open **Customize**, then **Plugins**.
 2. Click **Add**, then **Add marketplace**, then **Add from a repository**.
-3. Enter `chaostoclarity/Claude-skills`.
+3. Enter `chaostoclarity/C2C-skills`.
 4. Add the plugins you want: Cortex, Founder OS, Recap, Chaos to Clarity AI Coach, Above the Chaos, Handwritten Notes, Voice.
 
 **In Claude Code**
 
 ```
-claude plugin marketplace add chaostoclarity/Claude-skills
+claude plugin marketplace add chaostoclarity/C2C-skills
 claude plugin install cortex@chaostoclarity
 claude plugin install founder-os@chaostoclarity
 claude plugin install recap@chaostoclarity
@@ -53,16 +53,16 @@ Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/
 
 | Skill | Plugin | When you use it | Download |
 | --- | --- | --- | --- |
-| founder-os-setup | Founder OS | Once, to build the weekly system | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/founder-os-setup.zip) |
-| weekly-planning | Founder OS | Monday | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/weekly-planning.zip) |
-| daily-briefing | Founder OS | Each work day, on a schedule | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/daily-briefing.zip) |
-| weekly-retro | Founder OS | Friday | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/weekly-retro.zip) |
-| recap-setup | Recap | Once, to connect tools, set your branding, and schedule it | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/recap-setup.zip) |
-| meeting-recap | Recap | Twice a day on a schedule, or "recap my last meeting" | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/meeting-recap.zip) |
-| c2c-coach | Chaos to Clarity AI Coach | Whenever you're stuck on a leadership problem | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/c2c-coach.zip) |
-| above-the-chaos | Above the Chaos | When you want to work on how you lead, not just what you do | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/above-the-chaos.zip) |
-| handwritten-notes | Handwritten Notes | Whenever you photograph your notes | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/handwritten-notes.zip) |
-| voice-setup | Voice | Once, to build your voice skill from samples of your writing | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/voice-setup.zip) |
+| founder-os-setup | Founder OS | Once, to build the weekly system | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/founder-os-setup.zip) |
+| weekly-planning | Founder OS | Monday | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/weekly-planning.zip) |
+| daily-briefing | Founder OS | Each work day, on a schedule | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/daily-briefing.zip) |
+| weekly-retro | Founder OS | Friday | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/weekly-retro.zip) |
+| recap-setup | Recap | Once, to connect tools, set your branding, and schedule it | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/recap-setup.zip) |
+| meeting-recap | Recap | Twice a day on a schedule, or "recap my last meeting" | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/meeting-recap.zip) |
+| c2c-coach | Chaos to Clarity AI Coach | Whenever you're stuck on a leadership problem | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-coach.zip) |
+| above-the-chaos | Above the Chaos | When you want to work on how you lead, not just what you do | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/above-the-chaos.zip) |
+| handwritten-notes | Handwritten Notes | Whenever you photograph your notes | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/handwritten-notes.zip) |
+| voice-setup | Voice | Once, to build your voice skill from samples of your writing | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/voice-setup.zip) |
 
 Skills you upload are private to your account. Your data stays in your own tools.
 

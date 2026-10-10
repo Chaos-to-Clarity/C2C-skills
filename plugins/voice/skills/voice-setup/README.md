@@ -2,7 +2,7 @@
 
 Give Claude a few pieces of your own writing. You get back an analysis of how you write, a test piece in your voice, and, once it sounds right, your own voice skill that drafts and rewrites anything so it sounds like you.
 
-**[Download voice-setup.zip](https://github.com/chaostoclarity/claude-skills/releases/latest/download/voice-setup.zip)**
+**[Download voice-setup.zip](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/voice-setup.zip)**
 
 ## What it does
 

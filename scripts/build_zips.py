@@ -37,6 +37,12 @@ RESERVED = ("anthropic", "claude")
 DESCRIPTION_LIMIT = 200  # claude.ai upload limit
 SKIP_NAMES = {".DS_Store", "Thumbs.db", "__pycache__"}
 
+# Old ZIP names kept alive after a rename, so links already shared still work.
+# new skill name -> list of old names. Remove an entry once old links are gone.
+ZIP_ALIASES = {
+    "c2c-coach": ["c2c-toolkit"],  # renamed Oct 2026
+}
+
 
 def read_frontmatter(skill_md: Path) -> dict:
     text = skill_md.read_text(encoding="utf-8")
@@ -166,7 +172,12 @@ def main() -> int:
         return 1
 
     for folder in folders:
-        print(f"Built {build(folder).relative_to(ROOT)}")
+        out = build(folder)
+        print(f"Built {out.relative_to(ROOT)}")
+        for old in ZIP_ALIASES.get(folder.name, []):
+            alias = DIST_DIR / f"{old}.zip"
+            alias.write_bytes(out.read_bytes())
+            print(f"  alias {alias.relative_to(ROOT)}")
     return 0
 
 

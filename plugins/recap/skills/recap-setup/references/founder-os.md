@@ -2,7 +2,7 @@
 
 What Founder OS stores, and how it plugs into the user's Cortex. Read this alongside `cortex-spec.md`, which defines the Map, catalogs, record format, and the reading and writing protocols. Founder OS follows all of them.
 
-The master copy lives in `shared/founder-os.md` in the Claude-skills repository and is copied into each Founder OS skill. Edit the master, then run `python scripts/sync_shared.py`.
+The master copy lives in `shared/founder-os.md` in the C2C-skills repository and is copied into each Founder OS skill. Edit the master, then run `python scripts/sync_shared.py`.
 
 ## Collections
 
