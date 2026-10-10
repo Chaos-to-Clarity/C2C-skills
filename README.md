@@ -8,9 +8,10 @@ Claude skills for founders and operators, from Eric Weiss at [Chaos to Clarity](
 | --- | --- |
 | [**Cortex**](https://github.com/chaostoclarity/Cortex) | The context layer your AI reads first. A Map, catalogs, and records for your people, initiatives, decisions, and strategy, in Notion, Obsidian, or Google Drive. Lives in its own repo, listed here so one marketplace installs everything. |
 | [**Founder OS**](plugins/founder-os) | Your weekly operating cycle. Plan Monday, brief each morning, reflect Friday. Runs on your Cortex. |
+| [**Chaos to Clarity Toolkit**](plugins/c2c-toolkit) | 30 leadership exercises for founders. Describe the problem in one sentence; Claude picks the tool and coaches you through it. |
 | [**Handwritten Notes**](plugins/handwritten-notes) | Photograph a page of notes. Checkbox items become tasks with time booked on your calendar. Everything else is filed as notes. |
 
-Start with Cortex, then add Founder OS. Handwritten Notes works on its own.
+Start with Cortex, then add Founder OS. The Toolkit and Handwritten Notes work on their own.
 
 ## Install: the whole set (recommended)
 
@@ -21,7 +22,7 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 1. Open **Customize**, then **Plugins**.
 2. Click **Add**, then **Add marketplace**, then **Add from a repository**.
 3. Enter `chaostoclarity/Claude-skills`.
-4. Add the plugins you want: Cortex, Founder OS, Handwritten Notes.
+4. Add the plugins you want: Cortex, Founder OS, Chaos to Clarity Toolkit, Handwritten Notes.
 
 **In Claude Code**
 
@@ -29,6 +30,7 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 claude plugin marketplace add chaostoclarity/Claude-skills
 claude plugin install cortex@chaostoclarity
 claude plugin install founder-os@chaostoclarity
+claude plugin install c2c-toolkit@chaostoclarity
 ```
 
 ## Install: one skill at a time
@@ -46,6 +48,7 @@ Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/
 | weekly-planning | Founder OS | Monday | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/weekly-planning.zip) |
 | daily-briefing | Founder OS | Each work day, on a schedule | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/daily-briefing.zip) |
 | weekly-retro | Founder OS | Friday | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/weekly-retro.zip) |
+| c2c-toolkit | Chaos to Clarity Toolkit | Whenever you're stuck on a leadership problem | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/c2c-toolkit.zip) |
 | handwritten-notes | Handwritten Notes | Whenever you photograph your notes | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/handwritten-notes.zip) |
 
 Skills you upload are private to your account. Your data stays in your own tools.

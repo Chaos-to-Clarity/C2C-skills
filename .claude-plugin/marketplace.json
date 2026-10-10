@@ -22,6 +22,11 @@
       "description": "Founder Operating System: plan Monday, brief each morning, reflect Friday. Weekly goals, tasks, reflections, and commitments that run on your Cortex."
     },
     {
+      "name": "c2c-toolkit",
+      "source": "./plugins/c2c-toolkit",
+      "description": "The Chaos to Clarity Toolkit: 30 leadership exercises for founders. Describe a problem in one sentence and get coached through the right tool, from Toleration Audit to Hard Conversation Protocol."
+    },
+    {
       "name": "handwritten-notes",
       "source": "./plugins/handwritten-notes",
       "description": "Photograph a page of notes. Checkbox items become tasks with time booked on your calendar; everything else is filed as notes."
