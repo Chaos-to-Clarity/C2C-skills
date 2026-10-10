@@ -40,8 +40,8 @@ Keep it short. Use AskUserQuestion for choices (up to 4 per call, recommended op
    - Existing: fetch its schema and map these roles to its properties: title, due date, status (with its open and done values), priority (if any), context or project (if any). Only these are required: title and status. Then add the properties this skill needs that are missing, after telling the user in one line: Scheduled (date), Est. Minutes (number), Calendar Event (url).
    - New: create Tasks with Task (title), Due (date), Scheduled (date), Est. Minutes (number), Priority (High, Medium, Low), Status (To do, Doing, Done), Goal (text), Calendar Event (url).
 5. **Notes database.** Use an existing notes database if the user has one and it has a title and a date field; add Captured (date) if missing. Otherwise create Notes under the chosen parent page with Name (title), Captured (date), Type (General, Person, Initiative, Meeting, Idea), Status (Active, Archived), Last Updated (date), Source (text), a two-way relation to Tasks (shows on Tasks as Source Note), and two-way relations to the People and Projects databases if they exist (each shows on those rows as Notes).
-6. **Optional links.** Record the People database, the Projects or Initiatives database, a weekly planning database (with its week-start field), an ingest or activity log, and an overview or schema page if any exist. None are required.
-7. If the parent has an overview or index page, add one line there describing the Notes database.
+6. **Optional links.** Record the People database, the Projects or Initiatives database, a weekly planning database (with its week-start field), an ingest or activity log, and a Cortex Map, overview, or schema page if any exist. None are required.
+7. If the parent has a Cortex Map, ask the user to register Notes there with cortex-map. Otherwise, if it has an overview or index page, add one line there describing the Notes database.
 
 ### C. Scheduling preferences
 
@@ -60,7 +60,8 @@ Create a page titled "Handwritten Notes Config" under the chosen parent page (or
 ```text
 config_version: 1
 store: Notion
-brain_page: <url>
+parent_page: <url>
+cortex_map: <url or none>
 overview_page: <url or none>
 schema_page: <url or none>
 
@@ -108,6 +109,8 @@ Tell the user in one line that setup is done and they can edit the config page t
 
 ## Rules for every write
 
+- Older configs name the parent `brain_page`; treat it as `parent_page`.
+- If `cortex_map` is set, read the Map once and follow its Writing rules: after each task or note write, update that record's row on its catalog page (Name as plain text, the link in its own cell). The Map's Collections table names each catalog.
 - If `schema_page` is set, read it once and follow its rules.
 - Identity first: before creating a task or note, look for an existing open row with the same title and update it instead of duplicating.
 - Fill `last_updated` and `source` wherever those properties exist.
