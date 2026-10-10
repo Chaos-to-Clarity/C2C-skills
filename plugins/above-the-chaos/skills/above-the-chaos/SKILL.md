@@ -461,7 +461,7 @@ Follow those systems' own rules when writing. If neither is installed, skip this
 
 ## Related
 
-These exercises are the inner practice of leadership: attention, judgment, emotion, character. If the user brings an operational problem instead (a stalled hire, a co-founder fight, a missed quarter), say so in one line and suggest the Chaos to Clarity Toolkit if it's installed, which has 30 tools for those situations.
+These exercises are the inner practice of leadership: attention, judgment, emotion, character. If the user brings an operational problem instead (a stalled hire, a co-founder fight, a missed quarter), say so in one line and suggest the Chaos to Clarity AI Coach if it's installed, which has 30 tools for those situations.
 
 ---
 
