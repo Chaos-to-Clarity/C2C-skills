@@ -8,10 +8,11 @@ Claude skills for founders and operators, from Eric Weiss at [Chaos to Clarity](
 | --- | --- |
 | [**Cortex**](https://github.com/chaostoclarity/Cortex) | The context layer your AI reads first. A Map, catalogs, and records for your people, initiatives, decisions, and strategy, in Notion, Obsidian, or Google Drive. Lives in its own repo, listed here so one marketplace installs everything. |
 | [**Founder OS**](plugins/founder-os) | Your weekly operating cycle. Plan Monday, brief each morning, reflect Friday. Runs on your Cortex. |
+| [**Recap**](plugins/recap) | Every meeting becomes done work: a branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, and context saved. Runs twice a day. |
 | [**Chaos to Clarity Toolkit**](plugins/c2c-toolkit) | 30 leadership exercises for founders. Describe the problem in one sentence; Claude picks the tool and coaches you through it. |
 | [**Handwritten Notes**](plugins/handwritten-notes) | Photograph a page of notes. Checkbox items become tasks with time booked on your calendar. Everything else is filed as notes. |
 
-Start with Cortex, then add Founder OS. The Toolkit and Handwritten Notes work on their own.
+Start with Cortex, then add Founder OS and Recap. The Toolkit and Handwritten Notes work on their own. Recap works on its own too, and gets smarter with a Cortex.
 
 ## Install: the whole set (recommended)
 
@@ -22,7 +23,7 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 1. Open **Customize**, then **Plugins**.
 2. Click **Add**, then **Add marketplace**, then **Add from a repository**.
 3. Enter `chaostoclarity/Claude-skills`.
-4. Add the plugins you want: Cortex, Founder OS, Chaos to Clarity Toolkit, Handwritten Notes.
+4. Add the plugins you want: Cortex, Founder OS, Recap, Chaos to Clarity Toolkit, Handwritten Notes.
 
 **In Claude Code**
 
@@ -30,6 +31,7 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 claude plugin marketplace add chaostoclarity/Claude-skills
 claude plugin install cortex@chaostoclarity
 claude plugin install founder-os@chaostoclarity
+claude plugin install recap@chaostoclarity
 claude plugin install c2c-toolkit@chaostoclarity
 ```
 
@@ -48,6 +50,8 @@ Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/
 | weekly-planning | Founder OS | Monday | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/weekly-planning.zip) |
 | daily-briefing | Founder OS | Each work day, on a schedule | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/daily-briefing.zip) |
 | weekly-retro | Founder OS | Friday | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/weekly-retro.zip) |
+| recap-setup | Recap | Once, to connect tools, set your branding, and schedule it | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/recap-setup.zip) |
+| meeting-recap | Recap | Twice a day on a schedule, or "recap my last meeting" | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/meeting-recap.zip) |
 | c2c-toolkit | Chaos to Clarity Toolkit | Whenever you're stuck on a leadership problem | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/c2c-toolkit.zip) |
 | handwritten-notes | Handwritten Notes | Whenever you photograph your notes | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/handwritten-notes.zip) |
 
@@ -84,7 +88,7 @@ For other uses, such as rolling them out to clients or teaching them, contact Er
 4. Add a row to the download table above.
 5. Commit and push to `main`. The release workflow checks everything, builds the ZIPs, and publishes a release. Links update automatically.
 
-**Shared files.** Founder OS skills carry two references: `cortex-spec.md`, fetched from the [Cortex repo](https://github.com/chaostoclarity/Cortex/blob/main/spec/cortex-spec.md), and `founder-os.md`, mastered in `shared/`. Run `python scripts/sync_shared.py` to fetch and copy both. The release workflow also runs it daily and commits any change, so Founder OS picks up Cortex spec updates on its own.
+**Shared files.** Founder OS and Recap skills carry shared references: `cortex-spec.md`, fetched from the [Cortex repo](https://github.com/chaostoclarity/Cortex/blob/main/spec/cortex-spec.md), plus `founder-os.md` and `recap-config.md`, mastered in `shared/`. Run `python scripts/sync_shared.py` to fetch and copy them. The release workflow also runs it daily and commits any change, so Founder OS picks up Cortex spec updates on its own.
 
 **Cortex** is listed in `marketplace.json` with a `git-subdir` source pointing at `chaostoclarity/Cortex`. Its code lives only there.
 

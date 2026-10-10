@@ -22,6 +22,11 @@
       "description": "Founder Operating System: plan Monday, brief each morning, reflect Friday. Weekly goals, tasks, reflections, and commitments that run on your Cortex."
     },
     {
+      "name": "recap",
+      "source": "./plugins/recap",
+      "description": "Recap: every meeting becomes done work. A branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, small tasks done, and context saved to your Cortex."
+    },
+    {
       "name": "c2c-toolkit",
       "source": "./plugins/c2c-toolkit",
       "description": "The Chaos to Clarity Toolkit: 30 leadership exercises for founders. Describe a problem in one sentence and get coached through the right tool, from Toleration Audit to Hard Conversation Protocol."

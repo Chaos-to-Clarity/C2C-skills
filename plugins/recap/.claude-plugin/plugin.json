@@ -1,0 +1,19 @@
+{
+  "name": "recap",
+  "displayName": "Recap",
+  "description": "Recap: every meeting becomes done work. A branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, small tasks done, and context saved to your Cortex.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/Claude-skills/tree/main/plugins/recap",
+  "repository": "https://github.com/chaostoclarity/Claude-skills",
+  "keywords": [
+    "meetings",
+    "recap",
+    "follow-up",
+    "calendar",
+    "email",
+    "granola"
+  ]
+}
