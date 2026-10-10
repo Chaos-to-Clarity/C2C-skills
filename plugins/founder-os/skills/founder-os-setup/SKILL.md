@@ -50,7 +50,7 @@ Edit the Cortex Map, changing only these parts:
 - **Settings:** add the `founder_os.*` lines with the rhythm from Step 4
 - **Freshness:** add the four collections to the record counts
 
-Check the Map stays under 6,000 characters.
+Check the Map stays under 10,000 characters.
 
 ## Step 6. Schedule the routines
 
