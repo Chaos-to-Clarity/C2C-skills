@@ -1,0 +1,18 @@
+{
+  "name": "growth-by-design",
+  "displayName": "Growth by Design",
+  "description": "Growth by Design: 35 product-market fit exercises from the book by Eric Weiss. Score your ten PMF pillars, diagnose what's capping growth, and get coached through the canvas that fixes it.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://growthbydesignbook.com",
+  "repository": "https://github.com/chaostoclarity/C2C-skills",
+  "keywords": [
+    "product-market fit",
+    "pmf",
+    "founders",
+    "customer discovery",
+    "go-to-market"
+  ]
+}
