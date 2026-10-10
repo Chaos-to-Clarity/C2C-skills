@@ -28,3 +28,5 @@ The daily briefing runs fully on a schedule. Planning and the retro are conversa
 - A Cortex (setup builds a minimal one if you don't have one yet)
 - Your calendar connected to Claude; meeting notes and email make the briefing much better
 - For the morning briefing and the Monday and Friday prep: a Claude plan with scheduled tasks
+
+Built by Eric Weiss at [Chaos to Clarity](https://chaostoclarity.io). For executive coaching, AI strategy, or the Full-Stack AI Operating System bootcamp, [book a call](https://calendly.com/emweiss/clarity) or email [eric@chaostoclarity.io](mailto:eric@chaostoclarity.io).

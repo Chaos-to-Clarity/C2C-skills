@@ -47,3 +47,5 @@ Your page says:
 > &nbsp;&nbsp;&nbsp;– use Sam's outline
 
 Claude creates the task "Create workshop slide deck", due Tuesday, estimated at 90 minutes, and books a morning block on Monday. "Use Sam's outline" goes in the task and the calendar event.
+
+Built by Eric Weiss at [Chaos to Clarity](https://chaostoclarity.io). For executive coaching, AI strategy, or the Full-Stack AI Operating System bootcamp, [book a call](https://calendly.com/emweiss/clarity) or email [eric@chaostoclarity.io](mailto:eric@chaostoclarity.io).

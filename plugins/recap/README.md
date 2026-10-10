@@ -29,3 +29,5 @@ It runs twice a day on its own, and emails you only when a draft needs your revi
 ## What it will never do
 
 Spend money or book paid reservations, accept terms or sign anything, commit you to something you didn't agree to, email people who weren't in the meeting (except intros you promised, as drafts), or delete anything.
+
+Built by Eric Weiss at [Chaos to Clarity](https://chaostoclarity.io). For executive coaching, AI strategy, or the Full-Stack AI Operating System bootcamp, [book a call](https://calendly.com/emweiss/clarity) or email [eric@chaostoclarity.io](mailto:eric@chaostoclarity.io).

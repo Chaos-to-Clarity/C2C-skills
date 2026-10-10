@@ -20,3 +20,5 @@ Install the plugin (see the [main page](../../README.md)), then say: **"Run the 
 Not sure which one you need? Say **"help me find a tool."** Claude asks two quick questions and points you to the right one.
 
 Pairs well with [Founder OS](../founder-os) for the weekly rhythm, and [Cortex](https://github.com/chaostoclarity/Cortex) so the coaching remembers your people and priorities.
+
+Built by Eric Weiss at [Chaos to Clarity](https://chaostoclarity.io). For executive coaching, AI strategy, or the Full-Stack AI Operating System bootcamp, [book a call](https://calendly.com/emweiss/clarity) or email [eric@chaostoclarity.io](mailto:eric@chaostoclarity.io).
