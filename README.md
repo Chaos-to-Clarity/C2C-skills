@@ -11,12 +11,12 @@ Want help putting this to work in your company? [Work with Eric.](#work-with-eri
 | [**Cortex**](https://github.com/chaostoclarity/Cortex) | The context layer your AI reads first. A Map, catalogs, and records for your people, initiatives, decisions, and strategy, in Notion, Obsidian, or Google Drive. Lives in its own repo, listed here so one marketplace installs everything. |
 | [**Founder OS**](plugins/founder-os) | Your weekly operating cycle. Plan Monday, brief each morning, reflect Friday. Runs on your Cortex. |
 | [**Recap**](plugins/recap) | Every meeting becomes done work: a branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, and context saved. Runs twice a day. |
-| [**Chaos to Clarity Toolkit**](plugins/c2c-toolkit) | 30 leadership exercises for founders. Describe the problem in one sentence; Claude picks the tool and coaches you through it. |
+| [**Chaos to Clarity AI Coach**](plugins/c2c-coach) | 30 leadership exercises for founders. Describe the problem in one sentence; Claude picks the tool and coaches you through it. |
 | [**Above the Chaos**](plugins/above-the-chaos) | Nine Stoic leadership exercises from the book *Above the Chaos*. Claude coaches you through each one and gives you a summary to keep. Get the book at [abovethechaosbook.com](https://abovethechaosbook.com). |
 | [**Handwritten Notes**](plugins/handwritten-notes) | Photograph a page of notes. Checkbox items become tasks with time booked on your calendar. Everything else is filed as notes. |
 | [**Voice**](plugins/voice) | Share a few pieces of your writing and get your own voice skill. It drafts and rewrites anything so it sounds like you, and learns from every edit you make. |
 
-Start with Cortex, then add Founder OS and Recap. The Toolkit, Above the Chaos, Handwritten Notes, and Voice work on their own. Recap works on its own too, and gets smarter with a Cortex.
+Start with Cortex, then add Founder OS and Recap. The AI Coach, Above the Chaos, Handwritten Notes, and Voice work on their own. Recap works on its own too, and gets smarter with a Cortex.
 
 ## Install: the whole set (recommended)
 
@@ -27,7 +27,7 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 1. Open **Customize**, then **Plugins**.
 2. Click **Add**, then **Add marketplace**, then **Add from a repository**.
 3. Enter `chaostoclarity/Claude-skills`.
-4. Add the plugins you want: Cortex, Founder OS, Recap, Chaos to Clarity Toolkit, Above the Chaos, Handwritten Notes, Voice.
+4. Add the plugins you want: Cortex, Founder OS, Recap, Chaos to Clarity AI Coach, Above the Chaos, Handwritten Notes, Voice.
 
 **In Claude Code**
 
@@ -36,7 +36,7 @@ claude plugin marketplace add chaostoclarity/Claude-skills
 claude plugin install cortex@chaostoclarity
 claude plugin install founder-os@chaostoclarity
 claude plugin install recap@chaostoclarity
-claude plugin install c2c-toolkit@chaostoclarity
+claude plugin install c2c-coach@chaostoclarity
 claude plugin install above-the-chaos@chaostoclarity
 claude plugin install handwritten-notes@chaostoclarity
 claude plugin install voice@chaostoclarity
@@ -59,7 +59,7 @@ Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/
 | weekly-retro | Founder OS | Friday | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/weekly-retro.zip) |
 | recap-setup | Recap | Once, to connect tools, set your branding, and schedule it | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/recap-setup.zip) |
 | meeting-recap | Recap | Twice a day on a schedule, or "recap my last meeting" | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/meeting-recap.zip) |
-| c2c-toolkit | Chaos to Clarity Toolkit | Whenever you're stuck on a leadership problem | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/c2c-toolkit.zip) |
+| c2c-coach | Chaos to Clarity AI Coach | Whenever you're stuck on a leadership problem | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/c2c-coach.zip) |
 | above-the-chaos | Above the Chaos | When you want to work on how you lead, not just what you do | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/above-the-chaos.zip) |
 | handwritten-notes | Handwritten Notes | Whenever you photograph your notes | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/handwritten-notes.zip) |
 | voice-setup | Voice | Once, to build your voice skill from samples of your writing | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/voice-setup.zip) |

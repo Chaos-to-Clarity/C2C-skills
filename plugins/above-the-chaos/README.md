@@ -24,6 +24,6 @@ The Stoics built their philosophy for people under pressure. These exercises app
 
 Install the plugin (see the [main page](../../README.md)), then say **"Start Above the Chaos."** Start with Exercise 1, or say **"list exercises"** to choose.
 
-Pairs well with the [Chaos to Clarity Toolkit](../c2c-toolkit) for operational problems, and [Cortex](https://github.com/chaostoclarity/Cortex) to keep your Leadership Philosophy Canvas where every AI can see it.
+Pairs well with the [Chaos to Clarity AI Coach](../c2c-coach) for operational problems, and [Cortex](https://github.com/chaostoclarity/Cortex) to keep your Leadership Philosophy Canvas where every AI can see it.
 
 Built by Eric Weiss at [Chaos to Clarity](https://chaostoclarity.io). For executive coaching, AI strategy, or the Full-Stack AI Operating System bootcamp, [book a call](https://calendly.com/emweiss/clarity) or email [eric@chaostoclarity.io](mailto:eric@chaostoclarity.io).

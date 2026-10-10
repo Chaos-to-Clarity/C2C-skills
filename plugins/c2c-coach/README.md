@@ -1,4 +1,4 @@
-# Chaos to Clarity Toolkit
+# Chaos to Clarity AI Coach
 
 Thirty leadership exercises for founders, from ten years of coaching venture-backed CEOs and CTOs.
 
@@ -6,7 +6,7 @@ Tell Claude what's going on in one sentence ("I've needed to fire my VP of Eng f
 
 ## Get started
 
-Install the plugin (see the [main page](../../README.md)), then say: **"Run the Chaos to Clarity Toolkit."** Describe your problem, say **"help me find a tool,"** or name one: **"Run the Toleration Audit."**
+Install the plugin (see the [main page](../../README.md)), then say: **"Run the Chaos to Clarity AI Coach."** Describe your problem, say **"help me find a tool,"** or name one: **"Run the Toleration Audit."**
 
 ## The tools
 
