@@ -8,8 +8,13 @@
   "plugins": [
     {
       "name": "cortex",
-      "source": "./plugins/cortex",
-      "description": "Cortex: the context layer your AI reads first. People, initiatives, decisions, and strategy in Notion, Obsidian, or Google Drive, kept current from your meetings and email."
+      "source": {
+        "source": "git-subdir",
+        "url": "chaostoclarity/Cortex",
+        "path": "plugins/cortex"
+      },
+      "description": "Cortex: the context layer your AI reads first. A Map, catalogs, and records for your people, initiatives, decisions, and strategy, in Notion, Obsidian, or Google Drive. Lives in chaostoclarity/Cortex.",
+      "homepage": "https://github.com/chaostoclarity/Cortex"
     },
     {
       "name": "founder-os",

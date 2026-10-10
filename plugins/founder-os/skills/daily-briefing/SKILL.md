@@ -7,7 +7,7 @@ description: Produces the user's morning executive brief: schedule with Cortex c
 
 Produce the user's executive brief for today. Read every source, think, then write. Surface what matters and why. Scannable, no preamble. Built to run on a schedule before the user starts the day.
 
-Read `references/cortex-store.md` first, then load the Cortex Config (section 3). Founder OS needs the `[founder_os]` section; if it's missing, still brief from calendar, meetings, and email, and note in one line that founder-os-setup adds goals and tasks.
+Read `references/cortex-spec.md` (Map, catalogs, reading and writing protocols) and `references/founder-os.md` (the Founder OS collections and how to read them). Find and validate the Cortex Map (spec section 4). If the Map doesn't list the Founder OS collections, still brief from calendar, meetings, and email, and note in one line that founder-os-setup adds goals and tasks. Read through the Map and catalogs; never list whole databases.
 
 ## Step 1. Pull every source in parallel
 
@@ -16,8 +16,8 @@ Pull everything before writing a word. If a source is unavailable, note it in on
 - **Calendar:** today's events with start times, durations, attendees.
 - **Meeting notes:** meetings in the briefing look-back (default 24 hours). Open action items, decisions, and who is waiting on the user.
 - **Email:** threads in the look-back that need a reply or a decision. Discard newsletters, receipts, automated mail, and FYI threads.
-- **Cortex** (Overview first): People (Active: Role, Context, Open Thread), Initiatives (Active: Why It Matters, Status, Blocker, Next Action), Decisions (Open), Strategy.
-- **Founder OS:** this week's Weekly Goals record and its body; Tasks with Status To do or Doing and Due today or earlier.
+- **Cortex** (spec section 6): resolve every attendee and topic on today's calendar through the Glossary and the People and Initiatives catalogs, then open only those records and their linked initiatives. Read the Decisions catalog for Open items and the Strategy summary.
+- **Founder OS** (`founder-os.md`, How Founder OS reads): this week's Weekly Goals record; open tasks due today or earlier, from the Tasks catalog.
 
 Synthesize across all of them before writing.
 
@@ -72,7 +72,7 @@ If there's no reply (common in scheduled runs), change nothing. Tomorrow's brief
 
 If the brief surfaced something durable (a new decision, a shifted initiative, a commitment made, someone's context changed), offer in one line: "I noticed [X]. Want me to add it to your Cortex?"
 
-On a yes, follow the Schema: match by identity, update in place or create, Last Updated today, Source "Daily Briefing [date]", and log it with Type Query Insight. Offer only.
+On a yes, write it per spec section 7 (resolve identity, update in place or create, catalog row, Source "Daily Briefing [date]") and log it with Type Query Insight. Offer only.
 
 ## Output rules
 

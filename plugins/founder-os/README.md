@@ -2,7 +2,7 @@
 
 The Founder Operating System: a weekly cycle that keeps you working on what matters.
 
-Plan on Monday. Get briefed every morning. Reflect on Friday. Each step reads your [Cortex](../cortex) for your priorities, people, and strategy, takes you through the work, and writes your answers back, so the system and the Cortex stay current.
+Plan on Monday. Get briefed every morning. Reflect on Friday. Each step reads your [Cortex](https://github.com/chaostoclarity/Cortex) for your priorities, people, and strategy, takes you through the work, and writes your answers back, so the system and the Cortex stay current.
 
 It's built to push. It ties goals to strategy, checks them against the hours you actually have, and names anything you've carried for weeks without finishing.
 

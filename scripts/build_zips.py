@@ -97,6 +97,11 @@ def check_marketplace() -> list:
     for entry in market.get("plugins", []):
         name, source = entry.get("name"), entry.get("source", "")
         listed.add(name)
+        if isinstance(source, dict):
+            # Plugin hosted in another repository (for example Cortex); checked at install time.
+            if not source.get("url") and not source.get("repo"):
+                problems.append(f"marketplace.json: '{name}' external source needs a url or repo")
+            continue
         plugin_dir = (ROOT / source).resolve()
         if ".." in source or not plugin_dir.is_dir():
             problems.append(f"marketplace.json: '{name}' source '{source}' is not a folder in the repo")

@@ -7,7 +7,7 @@ description: Runs the user's Monday planning session: carries forward last week,
 
 Run the user's weekly planning session. Direct. Push back. Force the call when they circle. No cheerleading. The aim is a plan they will actually follow.
 
-Read `references/cortex-store.md` first, then load the Cortex Config (section 3). Founder OS needs the `[founder_os]` section; if it's missing, offer founder-os-setup and stop.
+Read `references/cortex-spec.md` (Map, catalogs, reading and writing protocols) and `references/founder-os.md` (the Founder OS collections and how to read them). Find and validate the Cortex Map (spec section 4). If the Map doesn't list the Founder OS collections, offer founder-os-setup and stop. Read through the Map and catalogs; never list whole databases. Every write updates the record and its catalog row together (spec section 7).
 
 Interactive: one step at a time, wait for each answer.
 
@@ -37,7 +37,7 @@ Read all of this before saying anything:
 - Commitments with Status Active
 - If a Planning record for this week exists, its prep notes
 
-**Cortex** (Overview first)
+**Cortex** (spec section 6: Map, then catalogs, then only the records needed)
 - Initiatives, Active: Why It Matters, Status, Blocker, Next Action
 - Decisions, Open
 - People, Active: Context, Open Thread, Cadence
@@ -120,7 +120,7 @@ In this order:
 
 Propose blocks for the top two or three tasks:
 
-- At least one deep-work block (length from the config) per key goal
+- At least one deep-work block (`founder_os.deep_work_block_minutes` in the Map's Settings) per key goal
 - Only on work days, within working hours, never over existing events
 - Mornings for high-priority work
 - One buffer slot for the unexpected
@@ -129,7 +129,7 @@ Propose blocks for the top two or three tasks:
 
 ## Step 10. Write back to the Cortex
 
-Following the Schema:
+Per spec section 7, updating each record and its catalog row together:
 
 - **Initiatives:** for each Active initiative this week touches, update Status, Blocker, and Next Action. Refresh Last Updated, Source "Weekly Planning [date]". Add an initiative only if a goal is genuinely new. Close one only with the user's explicit yes, by Status, never by deleting.
 - **People:** if the plan changes someone's open thread or cadence, update that record in place.

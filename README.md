@@ -6,7 +6,7 @@ Claude skills for founders and operators, from Eric Weiss at [Chaos to Clarity](
 
 | Plugin | What it does |
 | --- | --- |
-| [**Cortex**](plugins/cortex) | The context layer your AI reads first. Your people, initiatives, decisions, and strategy in Notion, Obsidian, or Google Drive, kept current from your meetings and email. |
+| [**Cortex**](https://github.com/chaostoclarity/Cortex) | The context layer your AI reads first. A Map, catalogs, and records for your people, initiatives, decisions, and strategy, in Notion, Obsidian, or Google Drive. Lives in its own repo, listed here so one marketplace installs everything. |
 | [**Founder OS**](plugins/founder-os) | Your weekly operating cycle. Plan Monday, brief each morning, reflect Friday. Runs on your Cortex. |
 | [**Handwritten Notes**](plugins/handwritten-notes) | Photograph a page of notes. Checkbox items become tasks with time booked on your calendar. Everything else is filed as notes. |
 
@@ -38,13 +38,10 @@ claude plugin install founder-os@chaostoclarity
 3. Click **Create skill**, then **Upload a skill**, and choose the ZIP.
 4. Turn the skill on, start a new chat, and use it.
 
+Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/Cortex#install).
+
 | Skill | Plugin | When you use it | Download |
 | --- | --- | --- | --- |
-| cortex-setup | Cortex | Once, to build your Cortex | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/cortex-setup.zip) |
-| strategy-digest | Cortex | When a strategy doc changes | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/strategy-digest.zip) |
-| add-to-cortex | Cortex | Any time you have a doc worth keeping | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/add-to-cortex.zip) |
-| cortex-update | Cortex | Weekly, on a schedule | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/cortex-update.zip) |
-| ask-cortex | Cortex | Any question about your work | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/ask-cortex.zip) |
 | founder-os-setup | Founder OS | Once, to build the weekly system | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/founder-os-setup.zip) |
 | weekly-planning | Founder OS | Monday | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/weekly-planning.zip) |
 | daily-briefing | Founder OS | Each work day, on a schedule | [ZIP](https://github.com/chaostoclarity/Claude-skills/releases/latest/download/daily-briefing.zip) |
@@ -73,7 +70,9 @@ Reach Eric at [chaostoclarity.io](https://chaostoclarity.io).
 4. Add a row to the download table above.
 5. Commit and push to `main`. The release workflow checks everything, builds the ZIPs, and publishes a release. Links update automatically.
 
-**Shared files.** `shared/cortex-store.md` is the storage spec every Cortex and Founder OS skill follows. Edit the master copy, then run `python scripts/sync_shared.py` to copy it into each skill. The build fails if a copy is out of date.
+**Shared files.** Founder OS skills carry two references: `cortex-spec.md`, fetched from the [Cortex repo](https://github.com/chaostoclarity/Cortex/blob/main/spec/cortex-spec.md), and `founder-os.md`, mastered in `shared/`. Run `python scripts/sync_shared.py` to fetch and copy both. The release workflow also runs it daily and commits any change, so Founder OS picks up Cortex spec updates on its own.
+
+**Cortex** is listed in `marketplace.json` with a `git-subdir` source pointing at `chaostoclarity/Cortex`. Its code lives only there.
 
 **Test locally**
 

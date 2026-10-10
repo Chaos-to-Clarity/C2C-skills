@@ -7,7 +7,7 @@ description: Runs the user's Friday retrospective: scores the week, asks reflect
 
 Run the user's weekly retrospective. Honest, not soft. One question at a time, wait for each answer.
 
-Read `references/cortex-store.md` first, then load the Cortex Config (section 3). Founder OS needs the `[founder_os]` section; if it's missing, offer founder-os-setup and stop.
+Read `references/cortex-spec.md` (Map, catalogs, reading and writing protocols) and `references/founder-os.md` (the Founder OS collections and how to read them). Find and validate the Cortex Map (spec section 4). If the Map doesn't list the Founder OS collections, offer founder-os-setup and stop. Read through the Map and catalogs; never list whole databases. Every write updates the record and its catalog row together (spec section 7).
 
 ## Prep mode (scheduled runs)
 
@@ -25,7 +25,7 @@ Read all of this before saying anything.
 **Founder OS**
 - This week's Weekly Goals record: body (goals, success criteria) and Status
 - Tasks linked to this week: Status, Priority, Due
-- The last three or four Reflections: body and ratings, to spot recurring patterns
+- The last three or four Reflections (main and Archive catalogs): body and ratings, to spot recurring patterns
 - Commitments with Status Active, especially last week's non-negotiable
 
 **Gap check:** if task statuses look stale (most still To do or Doing with no updates), check the calendar and recent meeting notes to fill the picture before scoring.
@@ -84,7 +84,7 @@ Compile every change and show it before writing anything:
 - **Reflections:** new record "Week of [Monday's date]", Week Start, Business, Health, Family, Energy. Body sections: Wins, Friction, Habits That Helped, Habits To Improve, Avoidance Patterns, Top Lesson.
 - **Commitments:** last week's non-negotiable to Kept or Dropped; a new record from question 10 with Status Active, Set today, Week = this week's record.
 - **Weekly Goals:** this week's record to Closed.
-- **Cortex** (Schema rules): Decisions made or surfaced this week; Initiatives whose status, blocker, or next action shifted; any recurring pattern worth tracking, proposed as a Decision or a Standing Context note.
+- **Cortex** (spec section 7): Decisions made or surfaced this week; Initiatives whose status, blocker, or next action shifted; any recurring pattern worth tracking, proposed as a Decision or a Standing Context note.
 
 Ask: "Look right? I'll write all of this once you confirm." Wait.
 
@@ -92,7 +92,7 @@ Ask: "Look right? I'll write all of this once you confirm." Wait.
 
 After approval, in this order:
 
-1. Reflections record (if one exists for this week, update it instead of creating a second)
+1. Reflections record (if one exists for this week, update it instead of creating a second). Set Reflections more than four weeks old to Archived, moving their catalog rows to the Archive catalog
 2. Commitments: find last week's by identity and set its Status; create the new one
 3. Weekly Goals: this week's record to Closed
 4. Cortex: Decisions with Status Decided, Date today, Source "Weekly Retro [date]"; Initiatives updated in place with Last Updated and Source. Never delete. Supersede only with an explicit yes.
