@@ -6,17 +6,17 @@ Tell Claude what's going on in one sentence ("I've needed to fire my VP of Eng f
 
 ## Get started
 
-Install the plugin (see the [main page](../../README.md)), then say: **"Run the Chaos to Clarity Toolkit."** Or name a tool: **"Run the Toleration Audit."**
+Install the plugin (see the [main page](../../README.md)), then say: **"Run the Chaos to Clarity Toolkit."** Describe your problem, say **"help me find a tool,"** or name one: **"Run the Toleration Audit."**
 
 ## The tools
 
-| Layer | Tools |
+| Area | Tools |
 | --- | --- |
 | Foundation and Strategy | 1 Operating Model, 2 Time Machine Vision, 3 Domino Strategy, 4 Object-Oriented Management, 5 Exponential Scaling, 6 Product Discovery |
-| Leadership and Alignment | 7 CEO / CTO Power Alignment, 8 Founder Hot Seat, 11 Founder Scorecard, 12 Gravity Well, 13 Research Sprint + XPRIZE Hackathon, 14 Viral Marketing Stunt |
-| Execution and Scaling | 15 Functional Scaling Redesign, 16 Six-Month Founder Clarity, 19 Founder Emotional Reset, 20 Exponential Department |
-| High-Impact Interventions | 21 Bottleneck Breakthrough, 22 Toleration Audit, 23 Hard Conversation Protocol, 24 Authority Audit, 25 Identity Ceiling, 26 Single Domino Compression, 28 Executive Hiring Clarity, 29 Board and Investor Alignment, 30 High-Stakes Decision Protocol, 31 Step Out of the Frame (co-founder conflict), 32 Team Sprint Retrospective, 33 Core Values Decision Framework, 34 CLEAR Expectations, 35 VUCA Leadership Navigator |
+| Leadership and Alignment | 7 CEO / CTO Power Alignment, 8 Founder Hot Seat, 9 Founder Scorecard, 10 Gravity Well, 11 Research Sprint + XPRIZE Hackathon, 12 Viral Marketing Stunt |
+| Execution and Scaling | 13 Functional Scaling Redesign, 14 Six-Month Founder Clarity, 15 Founder Emotional Reset, 16 Exponential Department |
+| High-Impact Interventions | 17 Bottleneck Breakthrough, 18 Toleration Audit, 19 Hard Conversation Protocol, 20 Authority Audit, 21 Identity Ceiling, 22 Single Domino Compression, 23 Executive Hiring Clarity, 24 Board and Investor Alignment, 25 High-Stakes Decision Protocol, 26 Step Out of the Frame (co-founder conflict), 27 Team Sprint Retrospective, 28 Core Values Decision Framework, 29 CLEAR Expectations, 30 VUCA Leadership Navigator |
 
-Tool numbers have gaps on purpose: they match the numbering used in Chaos to Clarity workshops.
+Not sure which one you need? Say **"help me find a tool."** Claude asks two quick questions and points you to the right one.
 
 Pairs well with [Founder OS](../founder-os) for the weekly rhythm, and [Cortex](https://github.com/chaostoclarity/Cortex) so the coaching remembers your people and priorities.
