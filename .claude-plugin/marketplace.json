@@ -17,6 +17,16 @@
       "homepage": "https://github.com/chaostoclarity/Cortex"
     },
     {
+      "name": "cortex-gnome",
+      "source": {
+        "source": "git-subdir",
+        "url": "chaostoclarity/Cortex",
+        "path": "plugins/cortex-gnome"
+      },
+      "description": "Cortex Gnome: the overnight worker. Runs nightly on your context and task tools, builds ship-ready work, logs it, sends a brief, and learns from your feedback. Starts reined in. Lives in chaostoclarity/Cortex.",
+      "homepage": "https://github.com/chaostoclarity/Cortex/tree/main/plugins/cortex-gnome"
+    },
+    {
       "name": "founder-os",
       "source": "./plugins/founder-os",
       "description": "Founder Operating System: plan Monday, brief each morning, reflect Friday. Weekly goals, tasks, reflections, and commitments that run on your Cortex."
