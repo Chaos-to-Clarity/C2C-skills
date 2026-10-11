@@ -1,0 +1,21 @@
+{
+  "name": "customer-signal",
+  "displayName": "Customer Signal",
+  "description": "Customer Signal: every customer and prospect call becomes evidence. Pains, requests, objections, churn risks, and praise, counted across accounts in your Cortex, with a weekly brief and close-the-loop notes.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/C2C-skills/tree/main/plugins/customer-signal",
+  "repository": "https://github.com/chaostoclarity/C2C-skills",
+  "keywords": [
+    "customer-feedback",
+    "voice-of-customer",
+    "churn",
+    "product-market-fit",
+    "founders"
+  ],
+  "dependencies": [
+    "cortex"
+  ]
+}

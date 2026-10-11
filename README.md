@@ -6,19 +6,35 @@ Want help putting this to work in your company? [Work with Eric.](#work-with-eri
 
 ## What's here
 
+### Cortex Suite
+
+Skills that run on your [Cortex](https://github.com/chaostoclarity/Cortex), the context layer that holds your people, companies, initiatives, decisions, and strategy. Each one reads it, does the work, and writes back what it learned, so every skill gets smarter as the others run. Install Cortex first.
+
 | Plugin | What it does |
 | --- | --- |
 | [**Cortex**](https://github.com/chaostoclarity/Cortex) | The context layer your AI reads first. A Map, catalogs, and records for your people, initiatives, decisions, and strategy, in Notion, Obsidian, or Google Drive. Lives in its own repo, listed here so one marketplace installs everything. |
-| [**Founder OS**](plugins/founder-os) | Your weekly operating cycle. Plan Monday, brief each morning, reflect Friday. Runs on your Cortex. |
-| [**Recap**](plugins/recap) | Every meeting becomes done work: a branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, and context saved. Runs twice a day. |
-| [**Content Engine**](plugins/content-engine) | Last week's meetings become this week's content. One original framework, a newsletter issue, and a LinkedIn post in your voice, with every story kept confidential. Runs every Monday. |
+| [**Founder OS**](plugins/founder-os) | Your weekly operating cycle. Plan Monday, brief each morning, reflect Friday. |
+| [**Investor Update**](plugins/investor-update) | Your monthly investor update, drafted from your Cortex. Metrics with deltas, highlights, required lowlights, what you promised last time, and specific asks. Always a draft. |
+| [**Customer Signal**](plugins/customer-signal) | Every customer and prospect call becomes evidence. Pains, requests, objections, churn risks, and praise, counted across accounts, with a weekly brief and close-the-loop notes when you ship. |
+| [**One-on-Ones**](plugins/one-on-ones) | Prep and debrief every 1:1 with your direct reports. Commitments both ways, recurring themes, a health flag you set, and a monthly team review. Private by design. |
+| [**Recap**](plugins/recap) | Every meeting becomes done work: a branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, and context saved. Runs twice a day. Also works without a Cortex. |
+| [**Content Engine**](plugins/content-engine) | Last week's meetings become this week's content. One original framework, a newsletter issue, and a LinkedIn post in your voice, with every story kept confidential. Runs every Monday. Also works without a Cortex. |
+
+Start with Cortex, then add Founder OS and whichever of the rest fit how you work. Founder OS, Investor Update, Customer Signal, and One-on-Ones need a Cortex. Recap and Content Engine run on their own and get smarter with one.
+
+### Standalone
+
+Coaching and writing tools that work on their own, no setup needed.
+
+| Plugin | What it does |
+| --- | --- |
 | [**Chaos to Clarity AI Coach**](plugins/c2c-coach) | 30 leadership exercises for founders. Describe the problem in one sentence; Claude picks the tool and coaches you through it. |
 | [**Above the Chaos**](plugins/above-the-chaos) | Nine Stoic leadership exercises from the book *Above the Chaos*. Claude coaches you through each one and gives you a summary to keep. Get the book at [abovethechaosbook.com](https://abovethechaosbook.com). |
 | [**Growth by Design**](plugins/growth-by-design) | 35 product-market fit exercises from the book *Growth by Design*. Score your ten PMF pillars, diagnose what's capping growth, and get coached through the canvas that fixes it. Get the free ebook and workbook at [growthbydesignbook.com](https://growthbydesignbook.com). |
 | [**Handwritten Notes**](plugins/handwritten-notes) | Photograph a page of notes. Checkbox items become tasks with time booked on your calendar. Everything else is filed as notes. |
 | [**Voice**](plugins/voice) | Share a few pieces of your writing and get your own voice skill. It drafts and rewrites anything so it sounds like you, and learns from every edit you make. |
 
-Start with Cortex, then add Founder OS and Recap. The AI Coach, Above the Chaos, Growth by Design, Handwritten Notes, and Voice work on their own. Recap and Content Engine work on their own too, and get smarter with a Cortex. Content Engine sounds most like you when you add Voice.
+Add Voice and Content Engine, Investor Update, and the close-the-loop notes in Customer Signal all sound like you.
 
 ## Install: the whole set (recommended)
 
@@ -29,7 +45,7 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 1. Open **Customize**, then **Plugins**.
 2. Click **Add**, then **Add marketplace**, then **Add from a repository**.
 3. Enter `chaostoclarity/C2C-skills`.
-4. Add the plugins you want: Cortex, Founder OS, Recap, Content Engine, Chaos to Clarity AI Coach, Above the Chaos, Growth by Design, Handwritten Notes, Voice.
+4. Add the plugins you want. Cortex Suite: Cortex, Founder OS, Investor Update, Customer Signal, One-on-Ones, Recap, Content Engine. Standalone: Chaos to Clarity AI Coach, Above the Chaos, Growth by Design, Handwritten Notes, Voice.
 
 **In Claude Code**
 
@@ -37,6 +53,9 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 claude plugin marketplace add chaostoclarity/C2C-skills
 claude plugin install cortex@chaostoclarity
 claude plugin install founder-os@chaostoclarity
+claude plugin install investor-update@chaostoclarity
+claude plugin install customer-signal@chaostoclarity
+claude plugin install one-on-ones@chaostoclarity
 claude plugin install recap@chaostoclarity
 claude plugin install content-engine@chaostoclarity
 claude plugin install c2c-coach@chaostoclarity
@@ -53,7 +72,7 @@ claude plugin install voice@chaostoclarity
 3. Click **Create skill**, then **Upload a skill**, and choose the ZIP.
 4. Turn the skill on, start a new chat, and use it.
 
-Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/Cortex#install).
+Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/Cortex#install). Install those first if you're adding any Cortex Suite skill.
 
 | Skill | Plugin | When you use it | Download |
 | --- | --- | --- | --- |
@@ -61,6 +80,9 @@ Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/
 | weekly-planning | Founder OS | Monday | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/weekly-planning.zip) |
 | daily-briefing | Founder OS | Each work day, on a schedule | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/daily-briefing.zip) |
 | weekly-retro | Founder OS | Friday | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/weekly-retro.zip) |
+| investor-update | Investor Update | Monthly on a schedule, or "draft my investor update". The first run sets it up | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/investor-update.zip) |
+| customer-signal | Customer Signal | Weekly on a schedule, or "what are customers saying about X". The first run sets it up | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/customer-signal.zip) |
+| one-on-ones | One-on-Ones | Each morning on a schedule, or "prep my 1:1 with Sam". The first run sets it up | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/one-on-ones.zip) |
 | recap-setup | Recap | Once, to connect tools, set your branding, and schedule it | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/recap-setup.zip) |
 | meeting-recap | Recap | Twice a day on a schedule, or "recap my last meeting" | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/meeting-recap.zip) |
 | content-engine-setup | Content Engine | Once, to connect your notes, learn your voice, and schedule it | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/content-engine-setup.zip) |
@@ -118,7 +140,7 @@ For other uses, such as rolling them out to clients or teaching them, contact Er
 4. Add a row to the download table above.
 5. Commit and push to `main`. The release workflow checks everything, builds the ZIPs, and publishes a release. Links update automatically.
 
-**Shared files.** Founder OS, Recap, and Content Engine skills carry shared references: `cortex-spec.md`, fetched from the [Cortex repo](https://github.com/chaostoclarity/Cortex/blob/main/spec/cortex-spec.md), plus `founder-os.md`, `recap-config.md`, and `content-engine-config.md`, mastered in `shared/`. Run `python scripts/sync_shared.py` to fetch and copy them. The release workflow also runs it daily and commits any change, so these plugins pick up Cortex spec updates on their own.
+**Shared files.** Cortex Suite skills carry shared references: `cortex-spec.md`, fetched from the [Cortex repo](https://github.com/chaostoclarity/Cortex/blob/main/spec/cortex-spec.md), plus `founder-os.md`, `recap-config.md`, and `content-engine-config.md`, mastered in `shared/`. Run `python scripts/sync_shared.py` to fetch and copy them. The release workflow also runs it daily and commits any change, so these plugins pick up Cortex spec updates on their own. A new Cortex Suite plugin gets its copies by adding it to `TARGETS` in `scripts/sync_shared.py`.
 
 **Cortex** is listed in `marketplace.json` with a `git-subdir` source pointing at `chaostoclarity/Cortex`. Its code lives only there.
 

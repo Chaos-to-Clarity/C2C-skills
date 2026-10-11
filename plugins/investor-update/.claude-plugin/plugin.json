@@ -1,0 +1,21 @@
+{
+  "name": "investor-update",
+  "displayName": "Investor Update",
+  "description": "Investor Update: your monthly update drafted from your Cortex. Metrics with deltas, highlights, lowlights, what you promised last time, and specific asks. Always a draft, never sent for you.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/C2C-skills/tree/main/plugins/investor-update",
+  "repository": "https://github.com/chaostoclarity/C2C-skills",
+  "keywords": [
+    "investor-update",
+    "fundraising",
+    "investors",
+    "metrics",
+    "founders"
+  ],
+  "dependencies": [
+    "cortex"
+  ]
+}

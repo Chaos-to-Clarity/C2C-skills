@@ -24,8 +24,9 @@ CORTEX_SPEC_URL = "https://raw.githubusercontent.com/chaostoclarity/Cortex/main/
 
 # shared file -> plugins whose every skill gets a copy
 TARGETS = {
-    "cortex-spec.md": ["founder-os", "recap", "content-engine"],
-    "founder-os.md": ["founder-os", "recap"],
+    "cortex-spec.md": ["founder-os", "recap", "content-engine",
+                       "investor-update", "customer-signal", "one-on-ones"],
+    "founder-os.md": ["founder-os", "recap", "investor-update", "one-on-ones"],
     "recap-config.md": ["recap"],
     "content-engine-config.md": ["content-engine"],
 }

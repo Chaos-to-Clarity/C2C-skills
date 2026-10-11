@@ -1,0 +1,21 @@
+{
+  "name": "one-on-ones",
+  "displayName": "One-on-Ones",
+  "description": "One-on-Ones: prep and debrief every 1:1 from your Cortex. What each report owes you, what you owe them, recurring themes, and a health flag per person, with a monthly team review.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/C2C-skills/tree/main/plugins/one-on-ones",
+  "repository": "https://github.com/chaostoclarity/C2C-skills",
+  "keywords": [
+    "one-on-ones",
+    "management",
+    "direct-reports",
+    "leadership",
+    "founders"
+  ],
+  "dependencies": [
+    "cortex"
+  ]
+}
