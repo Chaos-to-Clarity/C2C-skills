@@ -63,7 +63,7 @@ Two scoring rules keep this honest. Score the work as written, so a pricing memo
 
 - **Minimum three seats.** If fewer than three qualify, add the highest-scoring remaining seats until there are three.
 - **Maximum six seats.** If more than six qualify, score relevance for every qualifying seat, tripwire seats included, and keep the six highest. Tied seats go to the one with the higher influence weight from Step 1. Name each dropped seat and the tripwire that would have seated it, and offer to add it back.
-- **Influence weights for seated seats.** Any seat seated by a tripwire gets an influence weight of at least 10. Then rescale the weights across only the seated seats so they sum to 100.
+- **Influence weights for seated seats.** Every seated seat gets an influence weight of at least 10, so no seat sits at the table without a say. Then rescale the weights across only the seated seats so they sum to 100.
 - **Founder overrides.** The founder can say "full council" (all nine seats, Step 1 weights unchanged), "add [seat]," "skip [seat]," or "only [seats]." The CEO follows the override. If the founder skips a seat that a tripwire seated, the CEO notes the risk once in the brief and moves on.
 
 ## Show the seating

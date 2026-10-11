@@ -103,7 +103,7 @@ The math gives a starting point. Judgment finishes it. Follow these rules in ord
 
 Councils converge. Research on multi-agent debate shows AI agents drift toward agreement under perceived peer pressure, so agreement alone proves little. The CEO runs a challenger pass when any of these hold:
 
-- Every seated seat backs the work
+- Every seated seat backs the work, or every seated seat blocks it
 - The council score is 85 or higher
 - Seated seats' weighted scores fall within 15 points of each other
 
