@@ -77,7 +77,7 @@ Follow `references/seats/ceo.md`:
 
 ## Step 5. The Council Brief
 
-Write the brief in the exact order and format in `references/seats/ceo.md`, in the Chaos to Clarity voice. Before delivering, check the draft against the voice rules in that file: no em dashes, no negate-then-correct contrasts, no fragments standing in for sentences, one bold line, plain words, and an ending on the implement ask.
+Write the brief in the exact order and format in `references/seats/ceo.md`, in the Chaos to Clarity voice. Before delivering, check the draft against the voice rules in that file: no em dashes, no negate-then-correct contrasts, no fragments standing in for sentences, one bold sentence in the prose (short labels on list items are fine), plain words, and an ending on the implement ask.
 
 Deliver the brief in the chat. If the founder asks to keep or share it, save it in whatever document format this environment supports. Treat the work and the brief as confidential: never publish, post, or share them anywhere unless the founder asks.
 

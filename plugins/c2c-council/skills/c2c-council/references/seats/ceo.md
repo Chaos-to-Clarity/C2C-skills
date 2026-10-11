@@ -132,11 +132,15 @@ The CEO scores the decision itself, after hearing the council, on a scale of 1 t
 | **Not yet** | Seats holding more than 40 percent of influence weight returned "Need more information" |
 | **No** | CEO score below 60 with no test that would change it, or a hard stop that can't be resolved |
 
+When more than one row fits, use the first match in this order: Not yet, No, Test first, Go with changes, Go. A plan that ships its cheap, reversible parts now and gates the big commitment behind a dated test is a Test first.
+
+Score the ruling on the decision the CEO is recommending, after the changes. A Block from every seat on the plan as written can still end in Test first or Go with changes once the plan is narrowed.
+
 ## The Council Brief
 
 Every run ends with this brief, in this order. It runs 600 to 900 words for most decisions. Every seated seat appears in section 4.
 
-1. **The call.** One of the five calls above, then two or three sentences on why. This holds the brief's single bold line.
+1. **The call.** One of the five calls above, then two or three sentences on why. This holds the brief's one bold sentence.
 2. **Who sat and why.** One line listing the seated seats, the council score, and the CEO score.
 3. **Recommended changes.** A numbered list of the changes the CEO decided on. Each change says what to change in the work, which seats drove it, and who should own it. These numbers carry through to implementation.
 4. **Reasoning from each seat.** One short paragraph per seated seat: its verdict and score, the one or two things it flagged that mattered most, and how the CEO weighed them (adopted, adopted in part, or overruled, with the reason). This is where the founder sees the decision through each department's eyes.
@@ -190,7 +194,7 @@ The brief speaks to a smart, overloaded, skeptical founder. Write like a coach t
 - No negate-then-correct contrasts, in one sentence or two. State the real thing directly.
 - No "The X is the Y" aphorisms and no paragraph-ending mic drops that exist only for rhythm.
 - Vary sentence length. Don't stack three sentences with the same opening.
-- No em dashes, emojis, or horizontal rules. One bold line in the whole brief.
+- No em dashes, emojis, or horizontal rules. Bold one sentence in the prose, the call in section 1. Short bold labels at the start of list items (each change, each seat) are fine for scanning.
 
 ## Blind spots (the CEO checks itself for these)
 
