@@ -32,6 +32,7 @@ Coaching and writing tools that work on their own, no setup needed.
 | [**Chaos to Clarity AI Coach**](plugins/c2c-coach) | 30 leadership exercises for founders. Describe the problem in one sentence; Claude picks the tool and coaches you through it. |
 | [**Above the Chaos**](plugins/above-the-chaos) | Nine Stoic leadership exercises from the book *Above the Chaos*. Claude coaches you through each one and gives you a summary to keep. Get the book at [abovethechaosbook.com](https://abovethechaosbook.com). |
 | [**Growth by Design**](plugins/growth-by-design) | 35 product-market fit exercises from the book *Growth by Design*. Score your ten PMF pillars, diagnose what's capping growth, and get coached through the canvas that fixes it. Get the free ebook and workbook at [growthbydesignbook.com](https://growthbydesignbook.com). |
+| [**Chaos to Clarity Council**](plugins/c2c-council) | Run any plan, PRD, pricing change, or launch past your department heads. Each seat scores it in private, a CEO makes the call and briefs the changes, and you get the revised version. |
 | [**Handwritten Notes**](plugins/handwritten-notes) | Photograph a page of notes. Checkbox items become tasks with time booked on your calendar. Everything else is filed as notes. |
 | [**Voice**](plugins/voice) | Share a few pieces of your writing and get your own voice skill. It drafts and rewrites anything so it sounds like you, and learns from every edit you make. |
 
@@ -92,6 +93,7 @@ Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/
 | c2c-coach | Chaos to Clarity AI Coach | Whenever you're stuck on a leadership problem | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-coach.zip) |
 | above-the-chaos | Above the Chaos | When you want to work on how you lead, not just what you do | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/above-the-chaos.zip) |
 | growth-by-design | Growth by Design | Whenever you're working on product-market fit: score your pillars, diagnose, or run a canvas | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/growth-by-design.zip) |
+| c2c-council | Chaos to Clarity Council | Before you commit to a plan, a pricing change, a launch, or any decision you've been circling | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-council.zip) |
 | handwritten-notes | Handwritten Notes | Whenever you photograph your notes | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/handwritten-notes.zip) |
 | voice-setup | Voice | Once, to build your voice skill from samples of your writing | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/voice-setup.zip) |
 

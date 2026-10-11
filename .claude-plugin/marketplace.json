@@ -72,6 +72,11 @@
       "description": "Growth by Design: 35 product-market fit exercises from the book by Eric Weiss. Score your ten PMF pillars, diagnose what's capping growth, and get coached through the canvas that fixes it."
     },
     {
+      "name": "c2c-council",
+      "source": "./plugins/c2c-council",
+      "description": "Chaos to Clarity Council: run any plan, PRD, pricing change, or launch past your department heads. Each seat scores it in private, a CEO makes the call, and you get the revised version."
+    },
+    {
       "name": "handwritten-notes",
       "source": "./plugins/handwritten-notes",
       "description": "Photograph a page of notes. Checkbox items become tasks with time booked on your calendar; everything else is filed as notes."
