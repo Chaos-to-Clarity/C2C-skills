@@ -13,6 +13,7 @@ Skills that run on your [Cortex](https://github.com/chaostoclarity/Cortex), the 
 | Plugin | What it does |
 | --- | --- |
 | [**Cortex**](https://github.com/chaostoclarity/Cortex) | The context layer your AI reads first. A Map, catalogs, and records for your people, initiatives, decisions, and strategy, in Notion, Obsidian, or Google Drive. Lives in its own repo, listed here so one marketplace installs everything. |
+| [**Cortex Gnome**](https://github.com/chaostoclarity/Cortex/tree/main/plugins/cortex-gnome) | The overnight worker. Every night it turns the day's context and tagged tasks into finished work: decks, docs, landing pages, research, code with pull requests, drafts. It logs everything, sends a brief, and learns from your feedback. Teams can run several. Lives in the Cortex repo; also works without a Cortex. **Costs tokens every night whether or not it makes anything useful, and is only as good as your feedback.** Starts reined in and earns autonomy as you keep its work. Best on high-limit plans such as Claude Max. |
 | [**Founder OS**](plugins/founder-os) | Your weekly operating cycle. Plan Monday, brief each morning, reflect Friday. |
 | [**Investor Update**](plugins/investor-update) | Your monthly investor update, drafted from your Cortex. Metrics with deltas, highlights, required lowlights, what you promised last time, and specific asks. Always a draft. |
 | [**Customer Signal**](plugins/customer-signal) | Every customer and prospect call becomes evidence. Pains, requests, objections, churn risks, and praise, counted across accounts, with a weekly brief and close-the-loop notes when you ship. |
@@ -20,7 +21,7 @@ Skills that run on your [Cortex](https://github.com/chaostoclarity/Cortex), the 
 | [**Recap**](plugins/recap) | Every meeting becomes done work: a branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, and context saved. Runs twice a day. Also works without a Cortex. |
 | [**Content Engine**](plugins/content-engine) | Last week's meetings become this week's content. One original framework, a newsletter issue, and a LinkedIn post in your voice, with every story kept confidential. Runs every Monday. Also works without a Cortex. |
 
-Start with Cortex, then add Founder OS and whichever of the rest fit how you work. Founder OS, Investor Update, Customer Signal, and One-on-Ones need a Cortex. Recap and Content Engine run on their own and get smarter with one.
+Start with Cortex, then add Founder OS and whichever of the rest fit how you work. Founder OS, Investor Update, Customer Signal, and One-on-Ones need a Cortex. Recap, Content Engine, and Cortex Gnome run on their own and get smarter with one. Add Cortex Gnome last, once your context and tools are in place and you have time to review its first two weeks of work.
 
 ### Standalone
 
@@ -45,13 +46,14 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 1. Open **Customize**, then **Plugins**.
 2. Click **Add**, then **Add marketplace**, then **Add from a repository**.
 3. Enter `chaostoclarity/C2C-skills`.
-4. Add the plugins you want. Cortex Suite: Cortex, Founder OS, Investor Update, Customer Signal, One-on-Ones, Recap, Content Engine. Standalone: Chaos to Clarity AI Coach, Above the Chaos, Growth by Design, Handwritten Notes, Voice.
+4. Add the plugins you want. Cortex Suite: Cortex, Cortex Gnome, Founder OS, Investor Update, Customer Signal, One-on-Ones, Recap, Content Engine. Standalone: Chaos to Clarity AI Coach, Above the Chaos, Growth by Design, Handwritten Notes, Voice.
 
 **In Claude Code**
 
 ```
 claude plugin marketplace add chaostoclarity/C2C-skills
 claude plugin install cortex@chaostoclarity
+claude plugin install cortex-gnome@chaostoclarity
 claude plugin install founder-os@chaostoclarity
 claude plugin install investor-update@chaostoclarity
 claude plugin install customer-signal@chaostoclarity
@@ -142,7 +144,7 @@ For other uses, such as rolling them out to clients or teaching them, contact Er
 
 **Shared files.** Cortex Suite skills carry shared references: `cortex-spec.md`, fetched from the [Cortex repo](https://github.com/chaostoclarity/Cortex/blob/main/spec/cortex-spec.md), plus `founder-os.md`, `recap-config.md`, and `content-engine-config.md`, mastered in `shared/`. Run `python scripts/sync_shared.py` to fetch and copy them. The release workflow also runs it daily and commits any change, so these plugins pick up Cortex spec updates on their own. A new Cortex Suite plugin gets its copies by adding it to `TARGETS` in `scripts/sync_shared.py`.
 
-**Cortex** is listed in `marketplace.json` with a `git-subdir` source pointing at `chaostoclarity/Cortex`. Its code lives only there.
+**Cortex** and **Cortex Gnome** are listed in `marketplace.json` with `git-subdir` sources pointing at `chaostoclarity/Cortex`. Their code lives only there.
 
 **Test locally**
 
