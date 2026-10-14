@@ -20,7 +20,7 @@ The result is reactive leadership. The leader becomes the single point of failur
 
 Most "core values" exercises produce fluff that nobody uses. This tool fixes that by turning values into an operational decision-making system, with trade-off rules, behavioral examples, a team charter, and a feedback and performance loop that keeps the values alive.
 
-This is distinct from Tool #20 (Authority Audit), which fixes who owns what. This tool fixes how owners decide once authority is clear.
+This is distinct from the Authority Audit, which fixes who owns what. This tool fixes how owners decide once authority is clear.
 
 ---
 
@@ -340,7 +340,7 @@ If the leader is still approving the same decisions six months later, the framew
 
 How to run it well:
 
-1. Diagnose the bottleneck first. Confirm the leader is actually a decision bottleneck before installing this. If the issue is unclear authority, route to Tool #20 instead.
+1. Diagnose the bottleneck first. Confirm the leader is actually a decision bottleneck before installing this. If the issue is unclear authority, route to the Authority Audit instead.
 2. Draft the values alone before bringing the team in. Your instincts are the ground truth.
 3. Force the trade-off matrix. This is where most teams want to skip. Do not let them.
 4. For the first team session, consider an outside facilitator (an advisor, a peer founder, or an AI preparing you) so you can take part instead of steering.

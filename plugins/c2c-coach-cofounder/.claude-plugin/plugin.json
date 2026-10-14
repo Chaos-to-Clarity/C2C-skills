@@ -1,0 +1,19 @@
+{
+  "name": "c2c-coach-cofounder",
+  "displayName": "Chaos to Clarity Coach: Co-Founder and Board",
+  "description": "Co-Founder and Board: three coaching exercises for the power relationships. Settle CEO and CTO decision rights, break a looping co-founder fight, and reset a tense board.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/C2C-skills/tree/main/plugins/c2c-coach-cofounder",
+  "repository": "https://github.com/chaostoclarity/C2C-skills",
+  "keywords": [
+    "co-founder",
+    "cto",
+    "board",
+    "investors",
+    "founders",
+    "coaching"
+  ]
+}

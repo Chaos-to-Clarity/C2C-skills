@@ -133,7 +133,7 @@ ASK THEM
 YOUR ONE THING
 [The one message, decision, or piece of feedback to deliver this time, and why now]
 
-[Coach routing line, if a pattern fits: "Third week the hiring plan has slipped. #18 Toleration Audit fits. Want to run it before the 1:1?"]
+[Coach routing line, if a pattern fits: "Third week the hiring plan has slipped. The Toleration Audit fits. Want to run it before the 1:1?"]
 ```
 
 ### Team review
@@ -157,17 +157,17 @@ ONE MOVE
 
 ## 5. Coach routing
 
-When the c2c-coach skill is installed, offer the tool by number and name. When it isn't, name the pattern and the move without the tool reference.
+When a Chaos to Clarity Coach skill that carries the tool is installed (the all-in-one `c2c-coach`, or the theme plugin named below), offer the tool by name. When none is, name the pattern and the move without the tool reference.
 
-| Pattern | Tool |
-| --- | --- |
-| Standards slipping, the user accepting work below the bar | #18 Toleration Audit |
-| A conversation the user keeps putting off, or Red health | #19 Hard Conversation Protocol |
-| Work comes back wrong, or the same handoff fails twice | #29 CLEAR Expectations Framework |
-| Their decisions keep escalating to the user | #20 Authority Audit |
-| Two reports in conflict over ownership | #4 Object-Oriented Management |
-| Their whole function is underperforming | #13 Functional Scaling Redesign |
-| The user is the recurring blocker across several reports | #21 The Identity Ceiling Tool |
+| Pattern | Tool | Theme plugin |
+| --- | --- | --- |
+| Standards slipping, the user accepting work below the bar | Toleration Audit | `c2c-coach-people` |
+| A conversation the user keeps putting off, or Red health | Hard Conversation Protocol | `c2c-coach-people` |
+| Work comes back wrong, or the same handoff fails twice | CLEAR Expectations Framework | `c2c-coach-people` |
+| Their decisions keep escalating to the user | Authority Audit | `c2c-coach-people` |
+| Two reports in conflict over ownership | Object-Oriented Management | `c2c-coach-scale` |
+| Their whole function is underperforming | Functional Scaling Redesign | `c2c-coach-scale` |
+| The user is the recurring blocker across several reports | Identity Ceiling Tool | `c2c-coach-focus` |
 
 ## 6. Settings
 

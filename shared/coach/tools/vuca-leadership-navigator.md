@@ -1,4 +1,4 @@
-# Tool #30: VUCA Leadership Navigator
+# VUCA Leadership Navigator
 Author: Eric Weiss  
 
 ## Purpose

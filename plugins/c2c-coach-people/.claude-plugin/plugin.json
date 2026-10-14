@@ -1,0 +1,18 @@
+{
+  "name": "c2c-coach-people",
+  "displayName": "Chaos to Clarity Coach: Leading People",
+  "description": "Leading People: six coaching exercises for managing a team. Name what you tolerate, have the hard conversation, delegate so work comes back right, and hire executives well.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/C2C-skills/tree/main/plugins/c2c-coach-people",
+  "repository": "https://github.com/chaostoclarity/C2C-skills",
+  "keywords": [
+    "leadership",
+    "delegation",
+    "management",
+    "founders",
+    "coaching"
+  ]
+}

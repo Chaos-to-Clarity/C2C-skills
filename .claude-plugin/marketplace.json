@@ -59,7 +59,37 @@
     {
       "name": "c2c-coach",
       "source": "./plugins/c2c-coach",
-      "description": "The Chaos to Clarity AI Coach: 30 leadership exercises for founders. Describe a problem in one sentence and get coached through the right tool, from Toleration Audit to Hard Conversation Protocol."
+      "description": "The Chaos to Clarity AI Coach: all 30 leadership exercises for founders behind one front door. Describe a problem in one sentence and get coached through the right tool."
+    },
+    {
+      "name": "c2c-coach-focus",
+      "source": "./plugins/c2c-coach-focus",
+      "description": "Focus and Decisions: nine coaching exercises for founder focus and hard calls. Find the one priority, break a bottleneck, reset when anxious, and decide what you keep circling."
+    },
+    {
+      "name": "c2c-coach-people",
+      "source": "./plugins/c2c-coach-people",
+      "description": "Leading People: six coaching exercises for managing a team. Name what you tolerate, have the hard conversation, delegate so work comes back right, and hire executives well."
+    },
+    {
+      "name": "c2c-coach-cofounder",
+      "source": "./plugins/c2c-coach-cofounder",
+      "description": "Co-Founder and Board: three coaching exercises for the power relationships. Settle CEO and CTO decision rights, break a looping co-founder fight, and reset a tense board."
+    },
+    {
+      "name": "c2c-coach-scale",
+      "source": "./plugins/c2c-coach-scale",
+      "description": "Org and Scaling: six coaching exercises for building a company that scales. An operating rhythm, clean team ownership, a scorecard someone owns, and what breaks as you grow."
+    },
+    {
+      "name": "c2c-coach-growth",
+      "source": "./plugins/c2c-coach-growth",
+      "description": "Growth Plays: four coaching exercises for growth. Find what customers actually feel, build pull instead of buying it, validate a new market, and design a moment that gets you noticed."
+    },
+    {
+      "name": "c2c-coach-facilitator",
+      "source": "./plugins/c2c-coach-facilitator",
+      "description": "Facilitator Kit: run a founder hot seat for a peer group, advisors, or exec team, and team retros that end in action. Prep, run of show, scripts for hard moments, and follow-up."
     },
     {
       "name": "above-the-chaos",

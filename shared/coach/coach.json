@@ -1,0 +1,110 @@
+{
+  "_about": "Master registry for the Chaos to Clarity Coach plugins. Each tool lives once in shared/coach/tools/ and shared/coach/index/. scripts/sync_shared.py copies every tool into the router (c2c-coach) and into its theme plugin. Edit here, then run the sync.",
+  "router": "c2c-coach",
+  "themes": [
+    {
+      "plugin": "c2c-coach-focus",
+      "title": "Focus and Decisions",
+      "summary": "Your focus, your energy, and the calls you keep circling",
+      "tools": [
+        "single-domino-compression",
+        "bottleneck-breakthrough",
+        "identity-ceiling-tool",
+        "founder-emotional-reset",
+        "six-month-founder-clarity",
+        "time-machine-vision-exercise",
+        "domino-strategy-exercise",
+        "high-stakes-decision-protocol",
+        "vuca-leadership-navigator"
+      ]
+    },
+    {
+      "plugin": "c2c-coach-people",
+      "title": "Leading People",
+      "summary": "Standards, hard conversations, delegation, decision rights, and executive hires",
+      "tools": [
+        "toleration-audit",
+        "hard-conversation-protocol",
+        "clear-expectations-framework",
+        "authority-audit",
+        "core-values-decision-framework",
+        "executive-hiring-clarity-builder"
+      ]
+    },
+    {
+      "plugin": "c2c-coach-cofounder",
+      "title": "Co-Founder and Board",
+      "summary": "The power relationships: your co-founder, your CTO, your board, and your investors",
+      "tools": [
+        "ceo-cto-power-alignment",
+        "step-out-of-the-frame",
+        "board-investor-alignment"
+      ]
+    },
+    {
+      "plugin": "c2c-coach-scale",
+      "title": "Org and Scaling",
+      "summary": "Operating rhythm, org design, scorecards, and what breaks as you grow",
+      "tools": [
+        "chaos-to-clarity-operating-model",
+        "object-oriented-management",
+        "founder-scorecard-system",
+        "functional-scaling-redesign",
+        "exponential-scaling-playbook",
+        "exponential-department-exercise"
+      ]
+    },
+    {
+      "plugin": "c2c-coach-growth",
+      "title": "Growth Plays",
+      "summary": "Customer discovery, positioning, new markets, and breakthrough attention",
+      "tools": [
+        "product-discovery-framework",
+        "gravity-well-framework",
+        "research-sprint-xprize-hackathon",
+        "viral-marketing-stunt-framework"
+      ]
+    },
+    {
+      "plugin": "c2c-coach-facilitator",
+      "title": "Facilitator Kit",
+      "summary": "Sessions you run with a group: founder hot seats and team retrospectives",
+      "tools": [
+        "founder-hot-seat-model",
+        "team-sprint-retrospective"
+      ]
+    }
+  ],
+  "tools": {
+    "chaos-to-clarity-operating-model": {"name": "Chaos to Clarity Operating Model", "use_when": "You're firefighting with no system, and you need to find where the chaos really lives"},
+    "time-machine-vision-exercise": {"name": "Time Machine Vision Exercise", "use_when": "You can't describe where the company is in two years, or the team has no picture of winning"},
+    "domino-strategy-exercise": {"name": "Domino Strategy Exercise", "use_when": "You have too many initiatives with no sequence"},
+    "object-oriented-management": {"name": "Object-Oriented Management", "use_when": "Teams step on each other and ownership between them is unclear"},
+    "exponential-scaling-playbook": {"name": "Exponential Scaling Playbook", "use_when": "Growth keeps breaking things, or you're scaling on heroics"},
+    "product-discovery-framework": {"name": "Product Discovery Framework", "use_when": "Customers churn, messaging doesn't land, or you're unsure you're building the right thing"},
+    "ceo-cto-power-alignment": {"name": "CEO / CTO Power Alignment Model", "use_when": "Friction between the CEO and technical co-founder over decisions"},
+    "founder-hot-seat-model": {"name": "Founder Hot Seat Model", "use_when": "You want a peer group, advisors, or your exec team to dig into one hard problem"},
+    "founder-scorecard-system": {"name": "Founder Scorecard System", "use_when": "You can't tell if you're making progress, or nobody owns the numbers"},
+    "gravity-well-framework": {"name": "Gravity Well Framework", "use_when": "Growth feels forced, CAC keeps climbing, or you're invisible in your market"},
+    "research-sprint-xprize-hackathon": {"name": "Research Sprint + XPRIZE Hackathon", "use_when": "You're entering a new market, pivoting, or validating an opportunity"},
+    "viral-marketing-stunt-framework": {"name": "Viral Marketing Stunt Framework", "use_when": "You need a breakthrough moment of attention or a narrative reset"},
+    "functional-scaling-redesign": {"name": "Functional Scaling Redesign", "use_when": "One function is underperforming and dragging the company down"},
+    "six-month-founder-clarity": {"name": "Six-Month Founder Clarity Exercise", "use_when": "You're starting a new half or chapter and your goals are vague"},
+    "founder-emotional-reset": {"name": "Founder Emotional Reset Framework", "use_when": "Anxiety, reactivity, or burnout is driving your decisions"},
+    "exponential-department-exercise": {"name": "Exponential Department Exercise", "use_when": "You're about to grow fast and want to find what breaks first"},
+    "bottleneck-breakthrough": {"name": "30-Minute Bottleneck Breakthrough", "use_when": "Everything feels stuck and you can't name the one constraint"},
+    "toleration-audit": {"name": "Toleration Audit", "use_when": "You're tolerating poor performance or slipping standards"},
+    "hard-conversation-protocol": {"name": "Hard Conversation Protocol", "use_when": "There's a difficult conversation you keep putting off"},
+    "authority-audit": {"name": "Authority Audit", "use_when": "Decisions stall, politics creep in, or everything escalates to you"},
+    "identity-ceiling-tool": {"name": "Identity Ceiling Tool", "use_when": "The same problem keeps coming back and you suspect it's you"},
+    "single-domino-compression": {"name": "Single Domino Compression Tool", "use_when": "You're overwhelmed and can't name the one thing that matters most"},
+    "executive-hiring-clarity-builder": {"name": "Executive Hiring Clarity Builder", "use_when": "You're about to hire a VP or above"},
+    "board-investor-alignment": {"name": "Board and Investor Alignment Tool", "use_when": "Board meetings feel tense, or investors are overreaching"},
+    "high-stakes-decision-protocol": {"name": "High-Stakes Decision Protocol", "use_when": "You keep circling a big call: fire, raise, pivot, or sell"},
+    "step-out-of-the-frame": {"name": "Step Out of the Frame", "use_when": "Co-founder conflict keeps repeating, or you need to reset after a blowup"},
+    "team-sprint-retrospective": {"name": "Team Sprint Retrospective Framework", "use_when": "Your team's retros or standups don't produce change"},
+    "core-values-decision-framework": {"name": "Core Values Decision Framework", "use_when": "Every decision ends up on your desk because the team has no shared way to decide"},
+    "clear-expectations-framework": {"name": "CLEAR Expectations Framework", "use_when": "You delegate and the work comes back wrong"},
+    "vuca-leadership-navigator": {"name": "VUCA Leadership Navigator", "use_when": "The ground keeps shifting and you can't frame what kind of problem you're facing"}
+  }
+}

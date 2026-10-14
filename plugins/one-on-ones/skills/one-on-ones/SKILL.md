@@ -43,7 +43,7 @@ For each 1:1 (a named person, or every 1:1 on today's calendar that matches a Te
 
 Write the prep in the format in reference section 4, Prep. Lead with what the user owes them; a manager who keeps their own promises can hold others to theirs.
 
-**Coach routing.** When a pattern repeats, name it and the tool that fits. If the c2c-coach skill is installed, offer to run it before the 1:1. Use the routing table in reference section 5. One tool at most per prep, the one that fits best.
+**Coach routing.** When a pattern repeats, name it and the tool that fits. If a Chaos to Clarity Coach skill that carries the tool is installed (`c2c-coach` or its theme plugin), offer to run it before the 1:1. Use the routing table in reference section 5. One tool at most per prep, the one that fits best.
 
 **Delivery** (`one_on_ones.prep_delivery`):
 

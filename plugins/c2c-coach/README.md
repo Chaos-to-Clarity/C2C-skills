@@ -6,16 +6,20 @@ Tell Claude what's going on in one sentence ("I've needed to fire my VP of Eng f
 
 ## Get started
 
-Install the plugin (see the [main page](../../README.md)), then say: **"Run the Chaos to Clarity AI Coach."** Describe your problem, say **"help me find a tool,"** or name one: **"Run the Toleration Audit."**
+Install the plugin (see the [main page](../../README.md#install-the-whole-set-recommended)), then say: **"Run the Chaos to Clarity AI Coach."** Describe your problem, say **"help me find a tool,"** or name one: **"Run the Toleration Audit."**
 
 ## The tools
 
-| Area | Tools |
-| --- | --- |
-| Foundation and Strategy | 1 Operating Model, 2 Time Machine Vision, 3 Domino Strategy, 4 Object-Oriented Management, 5 Exponential Scaling, 6 Product Discovery |
-| Leadership and Alignment | 7 CEO / CTO Power Alignment, 8 Founder Hot Seat, 9 Founder Scorecard, 10 Gravity Well, 11 Research Sprint + XPRIZE Hackathon, 12 Viral Marketing Stunt |
-| Execution and Scaling | 13 Functional Scaling Redesign, 14 Six-Month Founder Clarity, 15 Founder Emotional Reset, 16 Exponential Department |
-| High-Impact Interventions | 17 Bottleneck Breakthrough, 18 Toleration Audit, 19 Hard Conversation Protocol, 20 Authority Audit, 21 Identity Ceiling, 22 Single Domino Compression, 23 Executive Hiring Clarity, 24 Board and Investor Alignment, 25 High-Stakes Decision Protocol, 26 Step Out of the Frame (co-founder conflict), 27 Team Sprint Retrospective, 28 Core Values Decision Framework, 29 CLEAR Expectations, 30 VUCA Leadership Navigator |
+The AI Coach carries all 30. Each theme is also its own plugin, for when you only want one area.
+
+| Theme | Tools | Its own plugin |
+| --- | --- | --- |
+| Focus and Decisions | Single Domino Compression, Bottleneck Breakthrough, Identity Ceiling, Founder Emotional Reset, Six-Month Founder Clarity, Time Machine Vision, Domino Strategy, High-Stakes Decision Protocol, VUCA Leadership Navigator | [c2c-coach-focus](../c2c-coach-focus) |
+| Leading People | Toleration Audit, Hard Conversation Protocol, CLEAR Expectations, Authority Audit, Core Values Decision Framework, Executive Hiring Clarity Builder | [c2c-coach-people](../c2c-coach-people) |
+| Co-Founder and Board | CEO / CTO Power Alignment, Step Out of the Frame, Board and Investor Alignment | [c2c-coach-cofounder](../c2c-coach-cofounder) |
+| Org and Scaling | Chaos to Clarity Operating Model, Object-Oriented Management, Founder Scorecard, Functional Scaling Redesign, Exponential Scaling Playbook, Exponential Department | [c2c-coach-scale](../c2c-coach-scale) |
+| Growth Plays | Product Discovery, Gravity Well, Research Sprint + XPRIZE Hackathon, Viral Marketing Stunt | [c2c-coach-growth](../c2c-coach-growth) |
+| Facilitator Kit | Founder Hot Seat, Team Sprint Retrospective | [c2c-coach-facilitator](../c2c-coach-facilitator) |
 
 Not sure which one you need? Say **"help me find a tool."** Claude asks two quick questions and points you to the right one.
 

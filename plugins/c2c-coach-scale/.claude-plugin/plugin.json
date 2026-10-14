@@ -1,0 +1,19 @@
+{
+  "name": "c2c-coach-scale",
+  "displayName": "Chaos to Clarity Coach: Org and Scaling",
+  "description": "Org and Scaling: six coaching exercises for building a company that scales. An operating rhythm, clean team ownership, a scorecard someone owns, and what breaks as you grow.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/C2C-skills/tree/main/plugins/c2c-coach-scale",
+  "repository": "https://github.com/chaostoclarity/C2C-skills",
+  "keywords": [
+    "scaling",
+    "org-design",
+    "operations",
+    "kpis",
+    "founders",
+    "coaching"
+  ]
+}

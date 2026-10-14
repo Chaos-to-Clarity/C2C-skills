@@ -21,7 +21,7 @@ Most delegation fails because the expectations were too vague. Tasks get assigne
 
 People do not fail because they are incapable. They fail because they were not set up to succeed.
 
-This tool provides the structural fix: the CLEAR framework. It does not address the founder's psychological resistance to letting go (that's Tool #21 Identity Ceiling). It addresses the mechanics of the handoff itself. Use them together when both layers are blocked.
+This tool provides the structural fix: the CLEAR framework. It does not address the founder's psychological resistance to letting go (that's the Identity Ceiling Tool). It addresses the mechanics of the handoff itself. Use them together when both layers are blocked.
 
 ---
 
@@ -257,11 +257,11 @@ The most common failure: founders write CLEAR docs that look good and then immed
 
 CLEAR fixes the mechanics of delegation. It does not fix:
 
-- A founder who cannot psychologically let go (route to Tool #21 Identity Ceiling)
-- A team without the skills to execute the work (route to Tool #23 Executive Hiring Clarity)
-- Unclear authority over who can decide what (route to Tool #20 Authority Audit)
-- A team that does not know how to weigh trade-offs (route to Tool #28 Core Values Decision Framework)
-- Tolerated mediocrity from a specific person who never delivers (route to Tool #18 Toleration Audit)
+- A founder who cannot psychologically let go (route to the Identity Ceiling Tool)
+- A team without the skills to execute the work (route to the Executive Hiring Clarity Builder)
+- Unclear authority over who can decide what (route to the Authority Audit)
+- A team that does not know how to weigh trade-offs (route to the Core Values Decision Framework)
+- Tolerated mediocrity from a specific person who never delivers (route to the Toleration Audit)
 
 If the founder runs CLEAR cleanly and the work still comes back wrong, the diagnosis is deeper than expectations. Re-route.
 
@@ -280,7 +280,7 @@ When you run this tool:
 7. Write the CLEAR doc yourself, then have a peer, advisor, or AI pressure-test it.
 8. Send it the same day. Do not let it sit in drafts.
 9. Schedule a 7-day check to review whether the delegation held without you stepping in.
-10. If you rewrite or redo the delegated work despite a clean CLEAR doc, the issue is identity, not mechanics. Route to Tool #21.
+10. If you rewrite or redo the delegated work despite a clean CLEAR doc, the issue is identity, not mechanics. Route to the Identity Ceiling Tool.
 
 ---
 

@@ -1,0 +1,18 @@
+{
+  "name": "c2c-coach-focus",
+  "displayName": "Chaos to Clarity Coach: Focus and Decisions",
+  "description": "Focus and Decisions: nine coaching exercises for founder focus and hard calls. Find the one priority, break a bottleneck, reset when anxious, and decide what you keep circling.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/C2C-skills/tree/main/plugins/c2c-coach-focus",
+  "repository": "https://github.com/chaostoclarity/C2C-skills",
+  "keywords": [
+    "focus",
+    "decision-making",
+    "founders",
+    "coaching",
+    "prioritization"
+  ]
+}
