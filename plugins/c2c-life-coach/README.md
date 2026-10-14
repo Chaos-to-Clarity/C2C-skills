@@ -10,7 +10,8 @@ Most coaching happens once a week and fades by Wednesday. This one checks in dai
 - **Habits behind every score.** Each area has habits that build it and habits that damage it. Scores are the outputs; habits are the inputs.
 - **A daily check-in.** At a time you choose, your coach asks about tonight and your commitment, checks yesterday's habits, takes your six scores, and gives you one piece of coaching. When a score drops, it names the habits behind it and one move to get back on track. When a score rises, it shows you which habit did it.
 - **A weekly session.** About 30 minutes. A recap of the week from your own data, a fresh scan, a habit review, one deep topic, and one commitment for the week. Once a month it zooms out.
-- **A real point of view.** The coaching draws on proven books, starting with *Above the Chaos*: Seneca on anger, Atomic Habits, Gottman on marriage, Nonviolent Communication, Emily Nagoski, The Self-Driven Child, Untangled, The Power of Showing Up, Outlive, Why We Sleep, This Naked Mind, Deep Work, Digital Minimalism, Essentialism, and Profit First. The core ideas from each are built in and applied to your habits.
+- **Real coaching craft.** Every session runs the way professional coaches are trained to run them, from *Co-Active Coaching*, John Whitmore's GROW model in *Coaching for Performance*, and the seven questions in *The Coaching Habit*: a designed alliance, deep listening, curiosity before advice, and commitments you're actually likely to keep.
+- **A real point of view.** What to work on draws on proven books, starting with *Above the Chaos*: Seneca on anger, Atomic Habits, Gottman on marriage, Nonviolent Communication, Emily Nagoski, The Self-Driven Child, Untangled, The Power of Showing Up, Outlive, Why We Sleep, This Naked Mind, Deep Work, Digital Minimalism, Essentialism, and Profit First. The core ideas from each are built in and applied to your habits.
 
 ## Get started
 

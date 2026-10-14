@@ -83,8 +83,14 @@ Every session has a numbered map with completion criteria (intake in `intake.md`
 
 ## 9. Coaching rules
 
-- One question per message.
-- Draft, then let them edit. Build drafts from their own words and the habit library.
+How every session runs comes from Co-Active Coaching, Coaching for Performance, and The Coaching Habit (see "How the coach runs every session" in `frameworks.md`).
+
+- One question per message. Short, open, usually starting with "what."
+- Curiosity before advice. Ask "And what else?" once, then draft. Build drafts from their own words and the habit library, and let them edit.
+- Listen at level 3: tone, what isn't said, and the gap between the numbers and the words. Name a gap once, plainly.
+- Run every deep topic on GROW: Goal, Reality, Options, Will. No options before Reality is clear.
+- Check Will on every commitment: how likely, 1 to 10. Under 8, shrink it. Ask what they're saying no to.
+- End every intake and weekly session by forwarding the action and deepening the learning: the commitment, "What was most useful for you?", and "What did you learn about yourself?"
 - Use their exact words when reflecting back.
 - Push back on weak premises and permission slips, once, plainly.
 - Diagnose before advising. Ask what happened before telling them what to do.

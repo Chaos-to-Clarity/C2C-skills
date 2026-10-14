@@ -11,7 +11,7 @@ Show this at the start. In every message after, mark where you are: "Step 5 of 1
 | # | Step | Done when | Time |
 | --- | --- | --- | --- |
 | 1 | Open | They've seen the map and know they can pause | 1 min |
-| 2 | Contract | They've said what would make this worth their time | 2 min |
+| 2 | Contract | They've said what would make this worth their time and how they want to be coached | 3 min |
 | 3 | Areas | The list of areas is confirmed | 2 min |
 | 4 | Scorecard | Every area has a 7-day and a 90-day score and a one-line why | 8 min |
 | 5 | Habits | Every area has at least one Build habit and its Drop habits, approved by the user | 15 min |
@@ -20,7 +20,7 @@ Show this at the start. In every message after, mark where you are: "Step 5 of 1
 | 8 | Keystone and commitment | One commitment with trigger, replacement, and first test | 5 min |
 | 9 | Daily tracking | Up to ten habits chosen for daily checkboxes | 3 min |
 | 10 | Check-in and first agenda | Check-in settings confirmed, first weekly agenda set | 3 min |
-| 11 | Close | They've said what they learned; everything is saved | 2 min |
+| 11 | Close | They've said what was most useful and what they learned; everything is saved | 2 min |
 
 ### Rules for holding the map
 
@@ -48,9 +48,12 @@ If they say later, stop. Tomorrow's run asks again. After three declines in a ro
 
 ## Step 2. Contract
 
-Ask: **"When we finish, what would make this worth your time?"**
+This is the designed alliance from Co-Active Coaching: what they want, and how they want to be coached. Two questions, one at a time.
 
-Reflect their answer back in their words. Save it to Session notes. It's the test for the close.
+1. **"When we finish, what would make this worth your time?"** Reflect their answer back in their words. It's the test for the close.
+2. **"When you drift or make excuses, how do you want me to handle it: gently, or straight?"** Add anything they name to the Coaching rules on the home ("call it out directly," "don't bring up work on weekends").
+
+Save both to Session notes.
 
 ## Step 3. Areas
 
@@ -74,7 +77,7 @@ This is the heart of the intake. One area per message, starting with the lowest-
 
 For each area:
 
-1. Ask: **"What habits build [area] for you, and what habits damage it?"**
+1. Ask: **"What habits build [area] for you, and what habits damage it?"** Then ask once: **"And what else?"** The second answer is often the real one.
 2. Then draft. Combine what they just said, what they said in the scorecard, and the starter habits for that area in `habit-library.md`. Present a short list: Builds and Drops, each with a one-line Target in their words. Ask: **"What would you change?"**
 3. Push for specifics. "Exercise more" becomes "Sweat every day: a real workout, not a walk." "Less phone" becomes "Phone in the kitchen at 9pm."
 4. Name a framework only when it sharpens the habit (see `frameworks.md`), in one sentence.
@@ -115,6 +118,7 @@ Done when each role has a statement and a failure mode, saved to "Who I'm becomi
    - The trigger moment and the replacement ("at dinner, sparkling water with lime").
    - The first real test ("the trip in three weeks"), and a reminder that the weeks before the test are where it's built.
 4. Ask once what has broken this kind of commitment before. Name a permission slip if they give one.
+5. Check Will (GROW): **"How likely are you to hold this for the next month, 1 to 10?"** Under 8, shrink it until it's an 8. Then the strategic question: **"If you're saying yes to this, what are you saying no to?"**
 
 Save it to Commitments (Status Active) and "Active commitments" on the home.
 
@@ -134,5 +138,5 @@ Check the map first. If any step from 1 to 10 isn't done or explicitly skipped, 
 
 Then:
 1. Recap in five lines or fewer: lowest areas, keystone commitment, the identity line that matters most to them, when the first check-in arrives, and what the first weekly session will cover. Test it against their contract from step 2.
-2. Ask: **"What did you learn about yourself today?"** Save their answer in their words.
+2. Ask: **"What was most useful for you today?"** Then: **"What did you learn about yourself?"** Save both answers in their words.
 3. Write the Session notes entry, set `intake: complete <date>`, clear `resume_point`, and fill the Intake row in Weekly Sessions.
