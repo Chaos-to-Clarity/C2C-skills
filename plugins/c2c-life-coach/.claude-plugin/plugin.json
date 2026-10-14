@@ -1,0 +1,20 @@
+{
+  "name": "c2c-life-coach",
+  "displayName": "Chaos to Clarity Life Coach",
+  "description": "Life Coach: a daily check-in and a weekly session for life outside work. Score six areas, tie each score to the habits behind it, and coach from proven books. Runs on its own, with or without a Cortex.",
+  "author": {
+    "name": "Eric Weiss, Chaos to Clarity",
+    "url": "https://chaostoclarity.io"
+  },
+  "homepage": "https://github.com/chaostoclarity/C2C-skills/tree/main/plugins/c2c-life-coach",
+  "repository": "https://github.com/chaostoclarity/C2C-skills",
+  "keywords": [
+    "life coaching",
+    "habits",
+    "scorecard",
+    "stoicism",
+    "relationships",
+    "parenting",
+    "health"
+  ]
+}

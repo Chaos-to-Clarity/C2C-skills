@@ -25,12 +25,13 @@ Start with Cortex, then add Founder OS and whichever of the rest fit how you wor
 
 ### Standalone
 
-Coaching and writing tools that work on their own, no setup needed.
+Coaching and writing tools that work on their own, no Cortex needed.
 
 | Plugin | What it does |
 | --- | --- |
 | [**Chaos to Clarity AI Coach**](plugins/c2c-coach) | 30 leadership exercises for founders. Describe the problem in one sentence; Claude picks the tool and coaches you through it. |
 | [**Above the Chaos**](plugins/above-the-chaos) | Nine Stoic leadership exercises from the book *Above the Chaos*. Claude coaches you through each one and gives you a summary to keep. Get the book at [abovethechaosbook.com](https://abovethechaosbook.com). |
+| [**Life Coach**](plugins/c2c-life-coach) | A life coach that reaches out every day. Score six areas of life outside work, tie each score to the habits that build or damage it, and get a four-minute daily check-in and a weekly session, coached from *Above the Chaos*, Atomic Habits, Gottman, and a dozen more proven books. Setup schedules it; plugs into your Cortex if you have one. |
 | [**Growth by Design**](plugins/growth-by-design) | 35 product-market fit exercises from the book *Growth by Design*. Score your ten PMF pillars, diagnose what's capping growth, and get coached through the canvas that fixes it. Get the free ebook and workbook at [growthbydesignbook.com](https://growthbydesignbook.com). |
 | [**Chaos to Clarity Council**](plugins/c2c-council) | Run any plan, PRD, pricing change, or launch past your department heads. Each seat scores it in private, a CEO makes the call and briefs the changes, and you get the revised version. |
 | [**Handwritten Notes**](plugins/handwritten-notes) | Photograph a page of notes. Checkbox items become tasks with time booked on your calendar. Everything else is filed as notes. |
@@ -47,7 +48,7 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 1. Open **Customize**, then **Plugins**.
 2. Click **Add**, then **Add marketplace**, then **Add from a repository**.
 3. Enter `chaostoclarity/C2C-skills`.
-4. Add the plugins you want. Cortex Suite: Cortex, Cortex Gnome, Founder OS, Investor Update, Customer Signal, One-on-Ones, Recap, Content Engine. Standalone: Chaos to Clarity AI Coach, Above the Chaos, Growth by Design, Handwritten Notes, Voice.
+4. Add the plugins you want. Cortex Suite: Cortex, Cortex Gnome, Founder OS, Investor Update, Customer Signal, One-on-Ones, Recap, Content Engine. Standalone: Chaos to Clarity AI Coach, Above the Chaos, Life Coach, Growth by Design, Handwritten Notes, Voice.
 
 **In Claude Code**
 
@@ -63,6 +64,7 @@ claude plugin install recap@chaostoclarity
 claude plugin install content-engine@chaostoclarity
 claude plugin install c2c-coach@chaostoclarity
 claude plugin install above-the-chaos@chaostoclarity
+claude plugin install c2c-life-coach@chaostoclarity
 claude plugin install growth-by-design@chaostoclarity
 claude plugin install handwritten-notes@chaostoclarity
 claude plugin install voice@chaostoclarity
@@ -92,6 +94,7 @@ Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/
 | weekly-content-engine | Content Engine | Every Monday on a schedule, or "run my content engine" | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/weekly-content-engine.zip) |
 | c2c-coach | Chaos to Clarity AI Coach | Whenever you're stuck on a leadership problem | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-coach.zip) |
 | above-the-chaos | Above the Chaos | When you want to work on how you lead, not just what you do | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/above-the-chaos.zip) |
+| c2c-life-coach | Life Coach | Once to set up and do your intake, then daily and weekly on a schedule | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-life-coach.zip) |
 | growth-by-design | Growth by Design | Whenever you're working on product-market fit: score your pillars, diagnose, or run a canvas | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/growth-by-design.zip) |
 | c2c-council | Chaos to Clarity Council | Before you commit to a plan, a pricing change, a launch, or any decision you've been circling | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-council.zip) |
 | handwritten-notes | Handwritten Notes | Whenever you photograph your notes | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/handwritten-notes.zip) |
