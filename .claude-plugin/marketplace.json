@@ -34,12 +34,17 @@
     {
       "name": "recap",
       "source": "./plugins/recap",
-      "description": "Recap: every meeting becomes done work. A branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, small tasks done, and context saved to your Cortex."
+      "description": "Meeting Recap: every meeting becomes done work. A branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, small tasks done, and context saved to your Cortex."
     },
     {
       "name": "content-engine",
       "source": "./plugins/content-engine",
       "description": "Content Engine: every Monday, last week's meetings become one original framework, a newsletter issue, and a LinkedIn post in your voice, with every story kept confidential."
+    },
+    {
+      "name": "handwritten-notes",
+      "source": "./plugins/handwritten-notes",
+      "description": "Photograph a page of notes. Checkbox items become tasks with time booked on your calendar; everything else is filed as notes."
     },
     {
       "name": "investor-update",
@@ -112,14 +117,9 @@
       "description": "Chaos to Clarity Council: run any plan, PRD, pricing change, or launch past your department heads. Each seat scores it in private, a CEO makes the call, and you get the revised version."
     },
     {
-      "name": "handwritten-notes",
-      "source": "./plugins/handwritten-notes",
-      "description": "Photograph a page of notes. Checkbox items become tasks with time booked on your calendar; everything else is filed as notes."
-    },
-    {
       "name": "voice",
       "source": "./plugins/voice",
-      "description": "Voice: turn samples of your writing into your own voice skill. It writes and rewrites anything so it sounds like you, avoids the habits that read as AI, and learns from every edit you make."
+      "description": "Voice Rewrite: turn samples of your writing into your own voice skill. It writes and rewrites anything so it sounds like you, avoids the habits that read as AI, and learns from every edit you make."
     }
   ]
 }

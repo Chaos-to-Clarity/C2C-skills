@@ -1,7 +1,7 @@
 {
   "name": "recap",
-  "displayName": "Recap",
-  "description": "Recap: every meeting becomes done work. A branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, small tasks done, and context saved to your Cortex.",
+  "displayName": "Meeting Recap",
+  "description": "Meeting Recap: every meeting becomes done work. A branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, small tasks done, and context saved to your Cortex.",
   "author": {
     "name": "Eric Weiss, Chaos to Clarity",
     "url": "https://chaostoclarity.io"

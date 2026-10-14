@@ -1,8 +1,8 @@
-# Recap
+# Meeting Recap
 
 Every meeting becomes done work.
 
-After each meeting, Recap reads the notes and:
+After each meeting, Meeting Recap reads the notes and:
 
 - **Sends a recap email** in your brand and voice to the people you met, with you copied. Decisions, open questions, and next steps with owners and dates. Sensitive meetings (hiring, legal, negotiations) always wait as drafts.
 - **Captures your to-dos** in your task list and books time to do them before they're due, within your working hours, with travel buffers around in-person meetings.
@@ -15,8 +15,8 @@ It runs twice a day on its own, and emails you only when a draft needs your revi
 
 ## Get started
 
-1. Install the Recap plugin (see the [main page](../../README.md)).
-2. Say **"Set up Recap."** It connects your meeting notes, email, and calendar, sets your branding and how much it does on its own, sends you a test on your last meeting, and schedules the routine.
+1. Install the Meeting Recap plugin (see the [main page](../../README.md)).
+2. Say **"Set up Meeting Recap."** It connects your meeting notes, email, and calendar, sets your branding and how much it does on its own, sends you a test on your last meeting, and schedules the routine.
 3. Anytime: **"Recap my last meeting"** or **"Recap my call with Sam."**
 
 ## What it needs

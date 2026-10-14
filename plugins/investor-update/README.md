@@ -27,7 +27,7 @@ It never sends anything. Every number comes from you or your metrics sheet, neve
 - Your metrics sheet, or you, each month
 - **Customer Signal** and **One-on-Ones**, if installed: the strongest customer themes, and team changes as counts and roles only
 - **Founder OS**, if installed: the wins and lessons from your weekly retros
-- **Voice**, if installed: so it sounds like you
+- **Voice Rewrite**, if installed: so it sounds like you
 
 Each update ends with a small "Built with Chaos to Clarity" line. Say "remove the footer" and it's gone for good.
 

@@ -1,4 +1,4 @@
-# Voice
+# Voice Rewrite
 
 Turn samples of your writing into your own voice skill. It drafts and rewrites anything so it sounds like you, avoids the habits that make text read as AI-written, and gets sharper every time you edit its work.
 

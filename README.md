@@ -11,18 +11,20 @@ Want help putting this to work in your company? [Work with Eric.](#work-with-eri
 | Get coached through a leadership problem | [Chaos to Clarity AI Coach](plugins/c2c-coach), or just the [theme](#chaos-to-clarity-coach) you need |
 | Give your AI the context of your company | [Cortex](https://github.com/chaostoclarity/Cortex) |
 | Run your week: plan Monday, brief each morning, reflect Friday | [Founder OS](plugins/founder-os) |
-| Turn meetings into done work, content, or customer evidence | [Recap](plugins/recap), [Content Engine](plugins/content-engine), [Customer Signal](plugins/customer-signal) |
+| Turn meetings into done work, content, or customer evidence | [Meeting Recap](plugins/recap), [Content Engine](plugins/content-engine), [Customer Signal](plugins/customer-signal) |
 | Write your investor update or prep your 1:1s | [Investor Update](plugins/investor-update), [One-on-Ones](plugins/one-on-ones) |
 | Find and fix what's capping product-market fit | [Growth by Design](plugins/growth-by-design) |
+| Turn a photo of handwritten notes into tasks and filed notes | [Handwritten Notes](plugins/handwritten-notes) |
 | Pressure-test a plan before you commit | [Chaos to Clarity Council](plugins/c2c-council) |
 | Work on how you lead, or your life outside work | [Above the Chaos](plugins/above-the-chaos), [Life Coach](plugins/c2c-life-coach) |
+| Make everything Claude writes sound like you | [Voice Rewrite](plugins/voice) |
 
 ## What's here
 
 - [Cortex Suite](#cortex-suite): skills that run on your company's context
 - [Chaos to Clarity Coach](#chaos-to-clarity-coach): 30 leadership exercises, all together or by theme
 - [Books](#books): the exercises from *Above the Chaos* and *Growth by Design*
-- [More tools](#more-tools): the Council, Life Coach, Handwritten Notes, and Voice
+- [More tools](#more-tools): the Council, Life Coach, and Voice Rewrite
 
 ### Cortex Suite
 
@@ -36,10 +38,11 @@ Skills that run on your [Cortex](https://github.com/chaostoclarity/Cortex), the 
 | [**Investor Update**](plugins/investor-update) | Your monthly investor update, drafted from your Cortex. Metrics with deltas, highlights, required lowlights, what you promised last time, and specific asks. Always a draft. |
 | [**Customer Signal**](plugins/customer-signal) | Every customer and prospect call becomes evidence. Pains, requests, objections, churn risks, and praise, counted across accounts, with a weekly brief and close-the-loop notes when you ship. |
 | [**One-on-Ones**](plugins/one-on-ones) | Prep and debrief every 1:1 with your direct reports. Commitments both ways, recurring themes, a health flag you set, and a monthly team review. Private by design. |
-| [**Recap**](plugins/recap) | Every meeting becomes done work: a branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, and context saved. Runs twice a day. Also works without a Cortex. |
+| [**Meeting Recap**](plugins/recap) | Every meeting becomes done work: a branded recap email, your to-dos with time booked, follow-ups drafted, agreed meetings booked, and context saved. Runs twice a day. Also works without a Cortex. |
 | [**Content Engine**](plugins/content-engine) | Last week's meetings become this week's content. One original framework, a newsletter issue, and a LinkedIn post in your voice, with every story kept confidential. Runs every Monday. Also works without a Cortex. |
+| [**Handwritten Notes**](plugins/handwritten-notes) | Photograph a page of notes. Checkbox items become tasks with time booked on your calendar. Everything else is filed as notes, linked to the right people and projects in your Cortex. Also works without a Cortex. |
 
-Start with Cortex, then add Founder OS and whichever of the rest fit how you work. Founder OS, Investor Update, Customer Signal, and One-on-Ones need a Cortex. Recap, Content Engine, and Cortex Gnome run on their own and get smarter with one. Add Cortex Gnome last, once your context and tools are in place and you have time to review its first two weeks of work.
+Start with Cortex, then add Founder OS and whichever of the rest fit how you work. Founder OS, Investor Update, Customer Signal, and One-on-Ones need a Cortex. Meeting Recap, Content Engine, Handwritten Notes, and Cortex Gnome run on their own and get smarter with one. Add Cortex Gnome last, once your context and tools are in place and you have time to review its first two weeks of work.
 
 ### Chaos to Clarity Coach
 
@@ -74,10 +77,9 @@ Coaching, review, and writing tools that work on their own. No Cortex needed.
 | --- | --- |
 | [**Chaos to Clarity Council**](plugins/c2c-council) | Run any plan, PRD, pricing change, or launch past your department heads. Each seat scores it in private, a CEO makes the call and briefs the changes, and you get the revised version. |
 | [**Life Coach**](plugins/c2c-life-coach) | A life coach that reaches out every day. Score six areas of life outside work, tie each score to the habits that build or damage it, and get a four-minute daily check-in and a weekly session, coached from *Above the Chaos*, Atomic Habits, Gottman, and a dozen more proven books. Setup schedules it; plugs into your Cortex if you have one. |
-| [**Handwritten Notes**](plugins/handwritten-notes) | Photograph a page of notes. Checkbox items become tasks with time booked on your calendar. Everything else is filed as notes. |
-| [**Voice**](plugins/voice) | Share a few pieces of your writing and get your own voice skill. It drafts and rewrites anything so it sounds like you, and learns from every edit you make. |
+| [**Voice Rewrite**](plugins/voice) | Share a few pieces of your writing and get your own voice skill. It drafts and rewrites anything so it sounds like you, and learns from every edit you make. |
 
-Add Voice and Content Engine, Investor Update, and the close-the-loop notes in Customer Signal all sound like you.
+Add Voice Rewrite and Content Engine, Investor Update, and the close-the-loop notes in Customer Signal all sound like you.
 
 ## Install: the whole set (recommended)
 
@@ -89,10 +91,10 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 2. Click **Add**, then **Add marketplace**, then **Add from a repository**.
 3. Enter `chaostoclarity/C2C-skills`.
 4. Add the plugins you want:
-   - **Cortex Suite:** Cortex, Cortex Gnome, Founder OS, Investor Update, Customer Signal, One-on-Ones, Recap, Content Engine.
+   - **Cortex Suite:** Cortex, Cortex Gnome, Founder OS, Investor Update, Customer Signal, One-on-Ones, Meeting Recap, Content Engine, Handwritten Notes.
    - **Chaos to Clarity Coach:** the AI Coach for all 30 tools, or any of Focus and Decisions, Leading People, Co-Founder and Board, Org and Scaling, Growth Plays, and Facilitator Kit. You don't need both: the AI Coach already holds every theme.
    - **Books:** Above the Chaos, Growth by Design.
-   - **More tools:** Chaos to Clarity Council, Life Coach, Handwritten Notes, Voice.
+   - **More tools:** Chaos to Clarity Council, Life Coach, Voice Rewrite.
 
 **In Claude Code**
 
@@ -108,6 +110,7 @@ claude plugin install customer-signal@chaostoclarity
 claude plugin install one-on-ones@chaostoclarity
 claude plugin install recap@chaostoclarity
 claude plugin install content-engine@chaostoclarity
+claude plugin install handwritten-notes@chaostoclarity
 
 # Chaos to Clarity Coach: all 30 tools...
 claude plugin install c2c-coach@chaostoclarity
@@ -126,7 +129,6 @@ claude plugin install growth-by-design@chaostoclarity
 # More tools
 claude plugin install c2c-council@chaostoclarity
 claude plugin install c2c-life-coach@chaostoclarity
-claude plugin install handwritten-notes@chaostoclarity
 claude plugin install voice@chaostoclarity
 ```
 
@@ -150,10 +152,11 @@ Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/
 | investor-update | Investor Update | Monthly on a schedule, or "draft my investor update". The first run sets it up | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/investor-update.zip) |
 | customer-signal | Customer Signal | Weekly on a schedule, or "what are customers saying about X". The first run sets it up | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/customer-signal.zip) |
 | one-on-ones | One-on-Ones | Each morning on a schedule, or "prep my 1:1 with Sam". The first run sets it up | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/one-on-ones.zip) |
-| recap-setup | Recap | Once, to connect tools, set your branding, and schedule it | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/recap-setup.zip) |
-| meeting-recap | Recap | Twice a day on a schedule, or "recap my last meeting" | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/meeting-recap.zip) |
+| recap-setup | Meeting Recap | Once, to connect tools, set your branding, and schedule it | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/recap-setup.zip) |
+| meeting-recap | Meeting Recap | Twice a day on a schedule, or "recap my last meeting" | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/meeting-recap.zip) |
 | content-engine-setup | Content Engine | Once, to connect your notes, learn your voice, and schedule it | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/content-engine-setup.zip) |
 | weekly-content-engine | Content Engine | Every Monday on a schedule, or "run my content engine" | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/weekly-content-engine.zip) |
+| handwritten-notes | Handwritten Notes | Whenever you photograph your notes | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/handwritten-notes.zip) |
 
 **Chaos to Clarity Coach**
 
@@ -180,8 +183,7 @@ Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/
 | --- | --- | --- | --- |
 | c2c-council | Chaos to Clarity Council | Before you commit to a plan, a pricing change, a launch, or any decision you've been circling | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-council.zip) |
 | c2c-life-coach | Life Coach | Once to set up and do your intake, then daily and weekly on a schedule | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-life-coach.zip) |
-| handwritten-notes | Handwritten Notes | Whenever you photograph your notes | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/handwritten-notes.zip) |
-| voice-setup | Voice | Once, to build your voice skill from samples of your writing | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/voice-setup.zip) |
+| voice-setup | Voice Rewrite | Once, to build your voice skill from samples of your writing | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/voice-setup.zip) |
 
 Skills you upload are private to your account. Your data stays in your own tools.
 
