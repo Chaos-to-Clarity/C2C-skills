@@ -36,7 +36,7 @@ Install the plugin (see the [main page](../../README.md)), then attach or paste 
 
 Runs best where Claude can launch subagents (Claude Code or the Claude desktop app), so every seat reviews in true isolation. It also works in a plain chat, where the seats review one at a time. A full council uses up to ten agents, so it costs more tokens than a single answer.
 
-Pairs well with [Growth by Design](../growth-by-design) when the council flags a product-market fit gap, [Above the Chaos](../above-the-chaos) when the decision is really about how you lead, and [Cortex](https://github.com/chaostoclarity/Cortex) so the council can read your strategy and past decisions.
+Pairs well with [Growth by Design](../growth-by-design) when the council flags a product-market fit gap, [Above the Chaos](../above-the-chaos) when the decision is really about how you lead, and [Cortex](https://github.com/Chaos-to-Clarity/Cortex) so the council can read your strategy and past decisions.
 
 ## Work with Eric
 

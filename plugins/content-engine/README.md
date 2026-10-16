@@ -23,7 +23,7 @@ The drafts land in your inbox, a Notion page, or a Google Doc, ready to edit and
 
 - A meeting notes app connected to Claude (Granola, Fireflies, Otter, Fathom, or similar)
 - Email (Gmail or Outlook), Notion, or Google Drive for delivery
-- Optional: [Voice](../voice) for a voice skill that learns from your edits, and [Cortex](https://github.com/chaostoclarity/Cortex) so the engine knows your audience, positioning, and offers
+- Optional: [Voice](../voice) for a voice skill that learns from your edits, and [Cortex](https://github.com/Chaos-to-Clarity/Cortex) so the engine knows your audience, positioning, and offers
 - For the weekly run: a Claude plan with scheduled tasks, set to run on its own
 
 ## What it will never do

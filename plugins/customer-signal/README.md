@@ -1,6 +1,6 @@
 # Customer Signal
 
-Every customer and prospect call becomes evidence, counted across accounts in your [Cortex](https://github.com/chaostoclarity/Cortex).
+Every customer and prospect call becomes evidence, counted across accounts in your [Cortex](https://github.com/Chaos-to-Clarity/Cortex).
 
 Founders hear the same request from five customers and remember it as "a few people mentioned it." Customer Signal reads your calls each week, pulls out what customers actually said, and folds it into themes: pains, requests, objections, churn risks, praise, and competitors. Each theme links to every account that raised it, so you can see that 9 accounts have asked for SSO, 3 of them in renewal, along with what each one said.
 

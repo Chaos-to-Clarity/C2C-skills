@@ -10,21 +10,21 @@
       "name": "cortex",
       "source": {
         "source": "git-subdir",
-        "url": "chaostoclarity/Cortex",
+        "url": "Chaos-to-Clarity/Cortex",
         "path": "plugins/cortex"
       },
-      "description": "Cortex: the context layer your AI reads first. A Map, catalogs, and records for your people, initiatives, decisions, and strategy, in Notion, Obsidian, or Google Drive. Lives in chaostoclarity/Cortex.",
-      "homepage": "https://github.com/chaostoclarity/Cortex"
+      "description": "Cortex: the context layer your AI reads first. A Map, catalogs, and records for your people, initiatives, decisions, and strategy, in Notion, Obsidian, or Google Drive. Lives in Chaos-to-Clarity/Cortex.",
+      "homepage": "https://github.com/Chaos-to-Clarity/Cortex"
     },
     {
       "name": "cortex-gnome",
       "source": {
         "source": "git-subdir",
-        "url": "chaostoclarity/Cortex",
+        "url": "Chaos-to-Clarity/Cortex",
         "path": "plugins/cortex-gnome"
       },
-      "description": "Cortex Gnome: the overnight worker. Runs nightly on your context and task tools, builds ship-ready work, logs it, sends a brief, and learns from your feedback. Starts reined in. Lives in chaostoclarity/Cortex.",
-      "homepage": "https://github.com/chaostoclarity/Cortex/tree/main/plugins/cortex-gnome"
+      "description": "Cortex Gnome: the overnight worker. Runs nightly on your context and task tools, builds ship-ready work, logs it, sends a brief, and learns from your feedback. Starts reined in. Lives in Chaos-to-Clarity/Cortex.",
+      "homepage": "https://github.com/Chaos-to-Clarity/Cortex/tree/main/plugins/cortex-gnome"
     },
     {
       "name": "founder-os",

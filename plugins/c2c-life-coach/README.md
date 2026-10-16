@@ -16,7 +16,7 @@ Most coaching happens once a week and fades by Wednesday. This one checks in dai
 ## Get started
 
 1. Install the plugin (see the [main page](../../README.md)).
-2. Say **"Set up my life coach."** It asks whether you use a [Cortex](https://github.com/chaostoclarity/Cortex) and installs there, or wherever you choose (Notion, Google Drive, or a folder on your computer). Then it builds the system and schedules your daily check-in and weekly session.
+2. Say **"Set up my life coach."** It asks whether you use a [Cortex](https://github.com/Chaos-to-Clarity/Cortex) and installs there, or wherever you choose (Notion, Google Drive, or a folder on your computer). Then it builds the system and schedules your daily check-in and weekly session.
 3. Do the **intake** right after, about 45 minutes: score each area, map the habits that build and damage it, write who you're becoming, and set your first commitment. You can pause and pick up where you left off.
 
 After that, it comes to you.

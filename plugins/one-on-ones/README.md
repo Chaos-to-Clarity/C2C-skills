@@ -1,6 +1,6 @@
 # One-on-Ones
 
-Prep and debrief every 1:1 with your direct reports, from your [Cortex](https://github.com/chaostoclarity/Cortex).
+Prep and debrief every 1:1 with your direct reports, from your [Cortex](https://github.com/Chaos-to-Clarity/Cortex).
 
 Most founders walk into 1:1s cold. They forget what they promised last time, miss that the same blocker has come up four weeks running, and let the meeting slide when the week gets busy. One-on-Ones keeps a private record for each direct report. It holds what they owe you, what you owe them, the themes they keep raising, their growth focus, and a health flag you set. Each morning you get a prep for that day's 1:1s.
 

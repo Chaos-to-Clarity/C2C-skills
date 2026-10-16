@@ -9,7 +9,7 @@ Want help putting this to work in your company? [Work with Eric.](#work-with-eri
 | You want to... | Start with |
 | --- | --- |
 | Get coached through a leadership problem | [Chaos to Clarity AI Coach](plugins/c2c-coach), or just the [theme](#chaos-to-clarity-coach) you need |
-| Give your AI the context of your company | [Cortex](https://github.com/chaostoclarity/Cortex) |
+| Give your AI the context of your company | [Cortex](https://github.com/Chaos-to-Clarity/Cortex) |
 | Run your week: plan Monday, brief each morning, reflect Friday | [Founder OS](plugins/founder-os) |
 | Turn meetings into done work, content, or customer evidence | [Meeting Recap](plugins/recap), [Content Engine](plugins/content-engine), [Customer Signal](plugins/customer-signal) |
 | Write your investor update or prep your 1:1s | [Investor Update](plugins/investor-update), [One-on-Ones](plugins/one-on-ones) |
@@ -28,12 +28,12 @@ Want help putting this to work in your company? [Work with Eric.](#work-with-eri
 
 ### Cortex Suite
 
-Skills that run on your [Cortex](https://github.com/chaostoclarity/Cortex), the context layer that holds your people, companies, initiatives, decisions, and strategy. Each one reads it, does the work, and writes back what it learned, so every skill gets smarter as the others run. Install Cortex first.
+Skills that run on your [Cortex](https://github.com/Chaos-to-Clarity/Cortex), the context layer that holds your people, companies, initiatives, decisions, and strategy. Each one reads it, does the work, and writes back what it learned, so every skill gets smarter as the others run. Install Cortex first.
 
 | Plugin | What it does |
 | --- | --- |
-| [**Cortex**](https://github.com/chaostoclarity/Cortex) | The context layer your AI reads first. A Map, catalogs, and records for your people, initiatives, decisions, and strategy, in Notion, Obsidian, or Google Drive. Lives in its own repo, listed here so one marketplace installs everything. |
-| [**Cortex Gnome**](https://github.com/chaostoclarity/Cortex/tree/main/plugins/cortex-gnome) | The overnight worker. Every night it turns the day's context and tagged tasks into finished work: decks, docs, landing pages, research, code with pull requests, drafts. It logs everything, sends a brief, and learns from your feedback. Teams can run several. Lives in the Cortex repo; also works without a Cortex. **Costs tokens every night whether or not it makes anything useful, and is only as good as your feedback.** Starts reined in and earns autonomy as you keep its work. Best on high-limit plans such as Claude Max. |
+| [**Cortex**](https://github.com/Chaos-to-Clarity/Cortex) | The context layer your AI reads first. A Map, catalogs, and records for your people, initiatives, decisions, and strategy, in Notion, Obsidian, or Google Drive. Lives in its own repo, listed here so one marketplace installs everything. |
+| [**Cortex Gnome**](https://github.com/Chaos-to-Clarity/Cortex/tree/main/plugins/cortex-gnome) | The overnight worker. Every night it turns the day's context and tagged tasks into finished work: decks, docs, landing pages, research, code with pull requests, drafts. It logs everything, sends a brief, and learns from your feedback. Teams can run several. Lives in the Cortex repo; also works without a Cortex. **Costs tokens every night whether or not it makes anything useful, and is only as good as your feedback.** Starts reined in and earns autonomy as you keep its work. Best on high-limit plans such as Claude Max. |
 | [**Founder OS**](plugins/founder-os) | Your weekly operating cycle. Plan Monday, brief each morning, reflect Friday. |
 | [**Investor Update**](plugins/investor-update) | Your monthly investor update, drafted from your Cortex. Metrics with deltas, highlights, required lowlights, what you promised last time, and specific asks. Always a draft. |
 | [**Customer Signal**](plugins/customer-signal) | Every customer and prospect call becomes evidence. Pains, requests, objections, churn risks, and praise, counted across accounts, with a weekly brief and close-the-loop notes when you ship. |
@@ -89,7 +89,7 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 
 1. Open **Customize**, then **Plugins**.
 2. Click **Add**, then **Add marketplace**, then **Add from a repository**.
-3. Enter `chaostoclarity/C2C-skills`.
+3. Enter `Chaos-to-Clarity/C2C-skills`.
 4. Add the plugins you want:
    - **Cortex Suite:** Cortex, Cortex Gnome, Founder OS, Investor Update, Customer Signal, One-on-Ones, Meeting Recap, Content Engine, Handwritten Notes.
    - **Chaos to Clarity Coach:** the AI Coach for all 30 tools, or any of Focus and Decisions, Leading People, Co-Founder and Board, Org and Scaling, Growth Plays, and Facilitator Kit. You don't need both: the AI Coach already holds every theme.
@@ -99,7 +99,7 @@ Installs every skill in a plugin at once and keeps them updated. Needs a paid Cl
 **In Claude Code**
 
 ```
-claude plugin marketplace add chaostoclarity/C2C-skills
+claude plugin marketplace add Chaos-to-Clarity/C2C-skills
 
 # Cortex Suite
 claude plugin install cortex@chaostoclarity
@@ -139,51 +139,51 @@ claude plugin install voice@chaostoclarity
 3. Click **Create skill**, then **Upload a skill**, and choose the ZIP.
 4. Turn the skill on, start a new chat, and use it.
 
-Cortex skills download from the [Cortex repo](https://github.com/chaostoclarity/Cortex#install). Install those first if you're adding any Cortex Suite skill.
+Cortex skills download from the [Cortex repo](https://github.com/Chaos-to-Clarity/Cortex#install). Install those first if you're adding any Cortex Suite skill.
 
 **Cortex Suite**
 
 | Skill | Plugin | When you use it | Download |
 | --- | --- | --- | --- |
-| founder-os-setup | Founder OS | Once, to build the weekly system | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/founder-os-setup.zip) |
-| weekly-planning | Founder OS | Monday | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/weekly-planning.zip) |
-| daily-briefing | Founder OS | Each work day, on a schedule | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/daily-briefing.zip) |
-| weekly-retro | Founder OS | Friday | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/weekly-retro.zip) |
-| investor-update | Investor Update | Monthly on a schedule, or "draft my investor update". The first run sets it up | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/investor-update.zip) |
-| customer-signal | Customer Signal | Weekly on a schedule, or "what are customers saying about X". The first run sets it up | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/customer-signal.zip) |
-| one-on-ones | One-on-Ones | Each morning on a schedule, or "prep my 1:1 with Sam". The first run sets it up | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/one-on-ones.zip) |
-| recap-setup | Meeting Recap | Once, to connect tools, set your branding, and schedule it | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/recap-setup.zip) |
-| meeting-recap | Meeting Recap | Twice a day on a schedule, or "recap my last meeting" | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/meeting-recap.zip) |
-| content-engine-setup | Content Engine | Once, to connect your notes, learn your voice, and schedule it | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/content-engine-setup.zip) |
-| weekly-content-engine | Content Engine | Every Monday on a schedule, or "run my content engine" | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/weekly-content-engine.zip) |
-| handwritten-notes | Handwritten Notes | Whenever you photograph your notes | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/handwritten-notes.zip) |
+| founder-os-setup | Founder OS | Once, to build the weekly system | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/founder-os-setup.zip) |
+| weekly-planning | Founder OS | Monday | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/weekly-planning.zip) |
+| daily-briefing | Founder OS | Each work day, on a schedule | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/daily-briefing.zip) |
+| weekly-retro | Founder OS | Friday | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/weekly-retro.zip) |
+| investor-update | Investor Update | Monthly on a schedule, or "draft my investor update". The first run sets it up | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/investor-update.zip) |
+| customer-signal | Customer Signal | Weekly on a schedule, or "what are customers saying about X". The first run sets it up | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/customer-signal.zip) |
+| one-on-ones | One-on-Ones | Each morning on a schedule, or "prep my 1:1 with Sam". The first run sets it up | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/one-on-ones.zip) |
+| recap-setup | Meeting Recap | Once, to connect tools, set your branding, and schedule it | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/recap-setup.zip) |
+| meeting-recap | Meeting Recap | Twice a day on a schedule, or "recap my last meeting" | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/meeting-recap.zip) |
+| content-engine-setup | Content Engine | Once, to connect your notes, learn your voice, and schedule it | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/content-engine-setup.zip) |
+| weekly-content-engine | Content Engine | Every Monday on a schedule, or "run my content engine" | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/weekly-content-engine.zip) |
+| handwritten-notes | Handwritten Notes | Whenever you photograph your notes | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/handwritten-notes.zip) |
 
 **Chaos to Clarity Coach**
 
 | Skill | Plugin | When you use it | Download |
 | --- | --- | --- | --- |
-| c2c-coach | Chaos to Clarity AI Coach | Whenever you're stuck on a leadership problem and want all 30 tools | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-coach.zip) |
-| c2c-coach-focus | Focus and Decisions | Too many priorities, a stuck company, or a call you keep putting off | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-coach-focus.zip) |
-| c2c-coach-people | Leading People | Slipping standards, a hard conversation, delegation, or an exec hire | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-coach-people.zip) |
-| c2c-coach-cofounder | Co-Founder and Board | Friction with your co-founder, your CTO, or your board | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-coach-cofounder.zip) |
-| c2c-coach-scale | Org and Scaling | No operating rhythm, unclear team ownership, or growth that breaks things | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-coach-scale.zip) |
-| c2c-coach-growth | Growth Plays | Churn, rising CAC, a new market, or a launch that needs attention | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-coach-growth.zip) |
-| c2c-coach-facilitator | Facilitator Kit | Before you run a founder hot seat or a team retro | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-coach-facilitator.zip) |
+| c2c-coach | Chaos to Clarity AI Coach | Whenever you're stuck on a leadership problem and want all 30 tools | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/c2c-coach.zip) |
+| c2c-coach-focus | Focus and Decisions | Too many priorities, a stuck company, or a call you keep putting off | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/c2c-coach-focus.zip) |
+| c2c-coach-people | Leading People | Slipping standards, a hard conversation, delegation, or an exec hire | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/c2c-coach-people.zip) |
+| c2c-coach-cofounder | Co-Founder and Board | Friction with your co-founder, your CTO, or your board | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/c2c-coach-cofounder.zip) |
+| c2c-coach-scale | Org and Scaling | No operating rhythm, unclear team ownership, or growth that breaks things | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/c2c-coach-scale.zip) |
+| c2c-coach-growth | Growth Plays | Churn, rising CAC, a new market, or a launch that needs attention | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/c2c-coach-growth.zip) |
+| c2c-coach-facilitator | Facilitator Kit | Before you run a founder hot seat or a team retro | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/c2c-coach-facilitator.zip) |
 
 **Books**
 
 | Skill | Plugin | When you use it | Download |
 | --- | --- | --- | --- |
-| above-the-chaos | Above the Chaos | When you want to work on how you lead, not just what you do | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/above-the-chaos.zip) |
-| growth-by-design | Growth by Design | Whenever you're working on product-market fit: score your pillars, diagnose, or run a canvas | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/growth-by-design.zip) |
+| above-the-chaos | Above the Chaos | When you want to work on how you lead, not just what you do | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/above-the-chaos.zip) |
+| growth-by-design | Growth by Design | Whenever you're working on product-market fit: score your pillars, diagnose, or run a canvas | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/growth-by-design.zip) |
 
 **More tools**
 
 | Skill | Plugin | When you use it | Download |
 | --- | --- | --- | --- |
-| c2c-council | Chaos to Clarity Council | Before you commit to a plan, a pricing change, a launch, or any decision you've been circling | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-council.zip) |
-| c2c-life-coach | Life Coach | Once to set up and do your intake, then daily and weekly on a schedule | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/c2c-life-coach.zip) |
-| voice-setup | Voice Rewrite | Once, to build your voice skill from samples of your writing | [ZIP](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/voice-setup.zip) |
+| c2c-council | Chaos to Clarity Council | Before you commit to a plan, a pricing change, a launch, or any decision you've been circling | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/c2c-council.zip) |
+| c2c-life-coach | Life Coach | Once to set up and do your intake, then daily and weekly on a schedule | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/c2c-life-coach.zip) |
+| voice-setup | Voice Rewrite | Once, to build your voice skill from samples of your writing | [ZIP](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/voice-setup.zip) |
 
 Skills you upload are private to your account. Your data stays in your own tools.
 
@@ -240,7 +240,7 @@ scripts/                          sync_shared.py and build_zips.py
 4. Add a row to the download table above.
 5. Commit and push to `main`. The release workflow checks everything, builds the ZIPs, and publishes a release. Links update automatically.
 
-**Shared files.** Cortex Suite skills carry shared references: `cortex-spec.md`, fetched from the [Cortex repo](https://github.com/chaostoclarity/Cortex/blob/main/spec/cortex-spec.md), plus `founder-os.md`, `recap-config.md`, and `content-engine-config.md`, mastered in `shared/`. Run `python scripts/sync_shared.py` to fetch and copy them. The release workflow also runs it daily and commits any change, so these plugins pick up Cortex spec updates on their own. A new Cortex Suite plugin gets its copies by adding it to `TARGETS` in `scripts/sync_shared.py`.
+**Shared files.** Cortex Suite skills carry shared references: `cortex-spec.md`, fetched from the [Cortex repo](https://github.com/Chaos-to-Clarity/Cortex/blob/main/spec/cortex-spec.md), plus `founder-os.md`, `recap-config.md`, and `content-engine-config.md`, mastered in `shared/`. Run `python scripts/sync_shared.py` to fetch and copy them. The release workflow also runs it daily and commits any change, so these plugins pick up Cortex spec updates on their own. A new Cortex Suite plugin gets its copies by adding it to `TARGETS` in `scripts/sync_shared.py`.
 
 **Coach tools.** Every Chaos to Clarity Coach tool is mastered once in `shared/coach/`: the exercise in `tools/<slug>.md`, its problems and founder phrases in `index/<slug>.md`, and the shared coaching method in `coach-method.md`. `shared/coach/coach.json` names each tool and assigns it to a theme. The sync copies every tool into the AI Coach and into its theme plugin, builds each skill's `references/tool-index.md`, and fills the generated table between the `coach-index` markers in each `SKILL.md`. Never edit a coach skill's `references/` folder or that table by hand; the release check fails if they drift.
 
@@ -249,7 +249,7 @@ scripts/                          sync_shared.py and build_zips.py
 - **Add a tool:** add both files and a `coach.json` entry, add it to the theme's "Help me pick" list and the AI Coach's triage, then run the sync.
 - **Refer to tools by name, never by number.** In an index fragment, write `[[slug]]` and the sync renders the name, plus its plugin when the tool lives in another theme.
 
-**Cortex** and **Cortex Gnome** are listed in `marketplace.json` with `git-subdir` sources pointing at `chaostoclarity/Cortex`. Their code lives only there.
+**Cortex** and **Cortex Gnome** are listed in `marketplace.json` with `git-subdir` sources pointing at `Chaos-to-Clarity/Cortex`. Their code lives only there.
 
 **Test locally**
 

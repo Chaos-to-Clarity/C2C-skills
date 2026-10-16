@@ -25,7 +25,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SHARED = ROOT / "shared"
-CORTEX_SPEC_URL = "https://raw.githubusercontent.com/chaostoclarity/Cortex/main/spec/cortex-spec.md"
+CORTEX_SPEC_URL = "https://raw.githubusercontent.com/Chaos-to-Clarity/Cortex/main/spec/cortex-spec.md"
 
 # shared file -> plugins whose every skill gets a copy
 TARGETS = {

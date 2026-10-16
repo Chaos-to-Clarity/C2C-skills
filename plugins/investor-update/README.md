@@ -1,6 +1,6 @@
 # Investor Update
 
-Your monthly investor update, drafted from what your [Cortex](https://github.com/chaostoclarity/Cortex) already knows.
+Your monthly investor update, drafted from what your [Cortex](https://github.com/Chaos-to-Clarity/Cortex) already knows.
 
 Most founders skip updates in the months they need them most, because writing one means digging through a month of notes. Investor Update does the digging. It pulls your metrics and computes the changes, finds what moved and what got stuck in your Cortex, checks what you promised last time, and turns your blockers into specific asks. You review it, and it lands in your drafts.
 

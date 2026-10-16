@@ -2,7 +2,7 @@
 
 Snap a photo of your notebook page and send it to Claude. You get back a clean transcription, tasks in your to-do list with real time blocked on your calendar, and notes filed where you'll find them.
 
-**[Download handwritten-notes.zip](https://github.com/chaostoclarity/C2C-skills/releases/latest/download/handwritten-notes.zip)**
+**[Download handwritten-notes.zip](https://github.com/Chaos-to-Clarity/C2C-skills/releases/latest/download/handwritten-notes.zip)**
 
 ## What it does
 

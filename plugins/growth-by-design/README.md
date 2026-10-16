@@ -27,7 +27,7 @@ Product-market fit isn't luck, and it isn't a feeling. It's ten pillars that hav
 
 Install the plugin (see the [main page](../../README.md)), then say **"Start Growth by Design."** You'll be set up, then pointed to the PMF Scorecard. Already know where it hurts? Say **"diagnose."** Want the list? Say **"show exercises."**
 
-Pairs well with [Cortex](https://github.com/chaostoclarity/Cortex), so your PMF Profile and canvases sit where every AI can see them, and the [Chaos to Clarity AI Coach](../c2c-coach) for leadership and team problems.
+Pairs well with [Cortex](https://github.com/Chaos-to-Clarity/Cortex), so your PMF Profile and canvases sit where every AI can see them, and the [Chaos to Clarity AI Coach](../c2c-coach) for leadership and team problems.
 
 ## Work with Eric
 

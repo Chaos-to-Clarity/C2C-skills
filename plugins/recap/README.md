@@ -9,7 +9,7 @@ After each meeting, Meeting Recap reads the notes and:
 - **Drafts the follow-ups you promised:** the document you said you'd send, the intro you offered.
 - **Books the meetings you agreed to.** "Let's grab coffee next week" becomes a calendar invite at one of your spots.
 - **Does small tasks itself:** the research, agenda, or outline you mentioned, ready and linked.
-- **Remembers what matters.** New people, shifted projects, and decisions go to your [Cortex](https://github.com/chaostoclarity/Cortex), if you have one.
+- **Remembers what matters.** New people, shifted projects, and decisions go to your [Cortex](https://github.com/Chaos-to-Clarity/Cortex), if you have one.
 
 It runs twice a day on its own, and emails you only when a draft needs your review.
 
@@ -23,7 +23,7 @@ It runs twice a day on its own, and emails you only when a draft needs your revi
 
 - A meeting notes app connected to Claude (Granola, Fireflies, Otter, Fathom, or similar)
 - Email (Gmail or Outlook) and a calendar connected to Claude
-- Optional: [Cortex](https://github.com/chaostoclarity/Cortex) for memory and [Founder OS](../founder-os) for tasks
+- Optional: [Cortex](https://github.com/Chaos-to-Clarity/Cortex) for memory and [Founder OS](../founder-os) for tasks
 - For the twice-daily routine: a Claude plan with scheduled tasks, set to run on its own
 
 ## What it will never do
